@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/black_color"
+        android:padding="@dimen/_5sdp"
+        android:text="0-500"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/_13ssp" />
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black_color"
+        android:padding="@dimen/_5sdp"
+        android:text="10%"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/_13ssp" />
+
+</LinearLayout>

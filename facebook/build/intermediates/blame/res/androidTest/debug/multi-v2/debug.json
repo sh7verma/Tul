@@ -1,0 +1,652 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,138,227,319,381,446,503,571,639,724,793,862,938,1030,1091,1153,1239",
+                        "endColumns": "82,88,91,61,64,56,67,67,84,68,68,75,91,60,61,85,57",
+                        "endOffsets": "133,222,314,376,441,498,566,634,719,788,857,933,1025,1086,1148,1234,1292"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,278,371,438,507,567,639,713,805,880,955,1038,1136,1201,1265,1385",
+                        "endColumns": "106,115,92,66,68,59,71,73,91,74,74,82,97,64,63,119,61",
+                        "endOffsets": "157,273,366,433,502,562,634,708,800,875,950,1033,1131,1196,1260,1380,1442"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-in_values-in.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-in/values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,257,349,415,483,541,612,682,766,838,910,995,1090,1151,1214,1298",
+                        "endColumns": "97,103,91,65,67,57,70,69,83,71,71,84,94,60,62,83,57",
+                        "endOffsets": "148,252,344,410,478,536,607,677,761,833,905,990,1085,1146,1209,1293,1351"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-fi/values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,181,313,408,475,545,606,679,760,864,944,1024,1120,1232,1297,1360,1485",
+                        "endColumns": "125,131,94,66,69,60,72,80,103,79,79,95,111,64,62,124,61",
+                        "endOffsets": "176,308,403,470,540,601,674,755,859,939,1019,1115,1227,1292,1355,1480,1542"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,168,281,375,450,523,586,661,736,834,909,984,1076,1188,1254,1319,1472",
+                        "endColumns": "112,112,93,74,72,62,74,74,97,74,74,91,111,65,64,152,62",
+                        "endOffsets": "163,276,370,445,518,581,656,731,829,904,979,1071,1183,1249,1314,1467,1530"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-es-rES_values-es-rES.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-es-rES/values-es-rES.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,167,304,402,470,542,603,677,759,857,929,1001,1092,1197,1262,1331,1487",
+                        "endColumns": "111,136,97,67,71,60,73,81,97,71,71,90,104,64,68,155,61",
+                        "endOffsets": "162,299,397,465,537,598,672,754,852,924,996,1087,1192,1257,1326,1482,1544"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,302,399,465,535,598,672,744,836,907,978,1063,1169,1233,1305,1460",
+                        "endColumns": "107,138,96,65,69,62,73,71,91,70,70,84,105,63,71,154,61",
+                        "endOffsets": "158,297,394,460,530,593,667,739,831,902,973,1058,1164,1228,1300,1455,1517"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-el_values-el.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-el/values-el.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,183,313,409,479,554,614,685,758,850,927,1004,1096,1205,1272,1343,1492",
+                        "endColumns": "127,129,95,69,74,59,70,72,91,76,76,91,108,66,70,148,63",
+                        "endOffsets": "178,308,404,474,549,609,680,753,845,922,999,1091,1200,1267,1338,1487,1551"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,181,325,420,488,560,619,693,775,873,945,1017,1108,1213,1278,1347,1496",
+                        "endColumns": "125,143,94,67,71,58,73,81,97,71,71,90,104,64,68,148,61",
+                        "endOffsets": "176,320,415,483,555,614,688,770,868,940,1012,1103,1208,1273,1342,1491,1553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,186,322,429,514,589,659,733,809,903,979,1055,1140,1243,1309,1375",
+                        "endColumns": "130,135,106,84,74,69,73,75,93,75,75,84,102,65,65,139",
+                        "endOffsets": "181,317,424,509,584,654,728,804,898,974,1050,1135,1238,1304,1370,1510"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-tr/values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,280,376,444,513,576,647,722,815,891,967,1049,1152,1217,1283,1410",
+                        "endColumns": "107,116,95,67,68,62,70,74,92,75,75,81,102,64,65,126,61",
+                        "endOffsets": "158,275,371,439,508,571,642,717,810,886,962,1044,1147,1212,1278,1405,1467"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,88,91,97,101,104,110,114,125,128,131,134,137,140,143,154,157,162,166,169,174",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,178,258,337,422,506,598,674,758,835,910,977,1048,2895,2969,3042,3115,3187,3260,3333,3398,3467,3532,3614,3697,3778,3861,3933,4003,4074,4143,4212,4283,4398,4516,4611,4676,4744,4804,4876,4948,5039,5113,5187,5270,5371,5434,5499,5628,5688,5781,5919,6196,6355,6495,6773,6933,7423,7528,7673,7818,7924,8069,8214,8815,8994,9341,9592,9774,10098",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,87,90,96,100,103,109,113,124,127,130,133,136,139,142,153,156,161,165,168,173,181",
+                        "endColumns": "51,70,79,78,84,83,91,75,83,76,74,66,70,46,73,72,72,71,72,72,64,68,64,81,82,80,82,71,69,70,68,68,70,114,117,94,64,67,59,71,71,90,73,73,82,100,62,64,128,59,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,12,12,12,12,12,12",
+                        "endOffsets": "102,173,253,332,417,501,593,669,753,830,905,972,1043,1090,2964,3037,3110,3182,3255,3328,3393,3462,3527,3609,3692,3773,3856,3928,3998,4069,4138,4207,4278,4393,4511,4606,4671,4739,4799,4871,4943,5034,5108,5182,5265,5366,5429,5494,5623,5683,5776,5914,6191,6350,6490,6768,6928,7418,7523,7668,7813,7919,8064,8209,8810,8989,9336,9587,9769,10093,10453"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-ml/values-ml.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,181,300,395,469,546,613,689,768,872,956,1040,1135,1245,1314,1382,1544",
+                        "endColumns": "125,118,94,73,76,66,75,78,103,83,83,94,109,68,67,161,64",
+                        "endOffsets": "176,295,390,464,541,608,684,763,867,951,1035,1130,1240,1309,1377,1539,1604"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-mr/values-mr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,166,282,378,445,514,578,652,728,818,896,974,1063,1165,1229,1300,1443",
+                        "endColumns": "110,115,95,66,68,63,73,75,89,77,77,88,101,63,70,142,60",
+                        "endOffsets": "161,277,373,440,509,573,647,723,813,891,969,1058,1160,1224,1295,1438,1499"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,161,289,382,448,517,582,653,731,827,906,985,1076,1181,1245,1311,1436",
+                        "endColumns": "105,127,92,65,68,64,70,77,95,78,78,90,104,63,65,124,60",
+                        "endOffsets": "156,284,377,443,512,577,648,726,822,901,980,1071,1176,1240,1306,1431,1492"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,198,341,437,508,578,641,714,789,883,961,1039,1132,1241,1307,1375,1521",
+                        "endColumns": "142,142,95,70,69,62,72,74,93,77,77,92,108,65,67,145,62",
+                        "endOffsets": "193,336,432,503,573,636,709,784,878,956,1034,1127,1236,1302,1370,1516,1579"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-ru/values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,179,305,401,472,544,605,679,749,839,911,983,1066,1175,1243,1313,1471",
+                        "endColumns": "123,125,95,70,71,60,73,69,89,71,71,82,108,67,69,157,59",
+                        "endOffsets": "174,300,396,467,539,600,674,744,834,906,978,1061,1170,1238,1308,1466,1526"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,140,240,332,395,461,515,583,651,736,805,874,951,1042,1103,1165,1251",
+                        "endColumns": "84,99,91,62,65,53,67,67,84,68,68,76,90,60,61,85,57",
+                        "endOffsets": "135,235,327,390,456,510,578,646,731,800,869,946,1037,1098,1160,1246,1304"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-ms/values-ms.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,172,295,390,457,525,587,658,733,829,906,983,1073,1182,1247,1313,1452",
+                        "endColumns": "116,122,94,66,67,61,70,74,95,76,76,89,108,64,65,138,61",
+                        "endOffsets": "167,290,385,452,520,582,653,728,824,901,978,1068,1177,1242,1308,1447,1509"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,140,236,328,390,455,510,578,646,731,800,869,947,1039,1100,1162,1246",
+                        "endColumns": "84,95,91,61,64,54,67,67,84,68,68,77,91,60,61,83,57",
+                        "endOffsets": "135,231,323,385,450,505,573,641,726,795,864,942,1034,1095,1157,1241,1299"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-tl_values-tl.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-tl/values-tl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,180,322,420,490,562,625,701,777,885,963,1041,1133,1240,1306,1373,1524",
+                        "endColumns": "124,141,97,69,71,62,75,75,107,77,77,91,106,65,66,150,62",
+                        "endOffsets": "175,317,415,485,557,620,696,772,880,958,1036,1128,1235,1301,1368,1519,1582"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,185,327,422,494,570,626,701,776,869,944,1019,1103,1202,1270,1335,1467",
+                        "endColumns": "129,141,94,71,75,55,74,74,92,74,74,83,98,67,64,131,64",
+                        "endOffsets": "180,322,417,489,565,621,696,771,864,939,1014,1098,1197,1265,1330,1462,1527"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-id_values-id.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,180,294,393,460,528,587,658,729,826,899,972,1056,1159,1223,1290",
+                        "endColumns": "124,113,98,66,67,58,70,70,96,72,72,83,102,63,66,138",
+                        "endOffsets": "175,289,388,455,523,582,653,724,821,894,967,1051,1154,1218,1285,1424"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-kn_values-kn.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-kn/values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,182,303,396,471,545,613,688,764,864,941,1018,1113,1226,1292,1362,1519",
+                        "endColumns": "126,120,92,74,73,67,74,75,99,76,76,94,112,65,69,156,62",
+                        "endOffsets": "177,298,391,466,540,608,683,759,859,936,1013,1108,1221,1287,1357,1514,1577"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-af_values-af.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-af/values-af.xml",
+                    "from": {
+                        "startLines": "2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,300,394,461,532,594,670,744,836,910,984,1067,1166,1230,1294,1426",
+                        "endLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "endColumns": "23,124,93,66,70,61,75,73,91,73,73,82,98,63,63,131,60",
+                        "endOffsets": "170,295,389,456,527,589,665,739,831,905,979,1062,1161,1225,1289,1421,1482"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-bn_values-bn.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-bn/values-bn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,187,319,415,491,565,627,703,779,878,956,1034,1131,1245,1309,1377,1520",
+                        "endColumns": "131,131,95,75,73,61,75,75,98,77,77,96,113,63,67,142,66",
+                        "endOffsets": "182,314,410,486,560,622,698,774,873,951,1029,1126,1240,1304,1372,1515,1582"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,263,355,418,485,545,613,682,767,838,909,987,1082,1144,1208,1308",
+                        "endColumns": "102,104,91,62,66,59,67,68,84,70,70,77,94,61,63,99,58",
+                        "endOffsets": "153,258,350,413,480,540,608,677,762,833,904,982,1077,1139,1203,1303,1362"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-hi/values-hi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,171,299,393,462,535,601,676,753,847,921,995,1088,1206,1270,1339,1484",
+                        "endColumns": "115,127,93,68,72,65,74,76,93,73,73,92,117,63,68,144,60",
+                        "endOffsets": "166,294,388,457,530,596,671,748,842,916,990,1083,1201,1265,1334,1479,1540"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-hu/values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,323,417,485,556,617,689,768,877,957,1037,1126,1241,1306,1375",
+                        "endColumns": "117,149,93,67,70,60,71,78,108,79,79,88,114,64,68,160",
+                        "endOffsets": "168,318,412,480,551,612,684,763,872,952,1032,1121,1236,1301,1370,1531"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-te/values-te.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,186,306,400,486,571,638,714,791,884,966,1048,1136,1245,1308,1386,1552",
+                        "endColumns": "130,119,93,85,84,66,75,76,92,81,81,87,108,62,77,165,59",
+                        "endOffsets": "181,301,395,481,566,633,709,786,879,961,1043,1131,1240,1303,1381,1547,1607"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,182,302,414,487,564,626,700,772,862,935,1008,1092,1191,1254,1317,1447",
+                        "endColumns": "126,119,111,72,76,61,73,71,89,72,72,83,98,62,62,129,59",
+                        "endOffsets": "177,297,409,482,559,621,695,767,857,930,1003,1087,1186,1249,1312,1442,1502"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,179,327,421,487,556,619,693,773,873,955,1037,1132,1248,1313,1382,1530",
+                        "endColumns": "123,147,93,65,68,62,73,79,99,81,81,94,115,64,68,147,61",
+                        "endOffsets": "174,322,416,482,551,614,688,768,868,950,1032,1127,1243,1308,1377,1525,1587"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-vi/values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,275,368,436,505,566,635,710,804,880,956,1054,1157,1219,1286,1432",
+                        "endColumns": "100,118,92,67,68,60,68,74,93,75,75,97,102,61,66,145,58",
+                        "endOffsets": "151,270,363,431,500,561,630,705,799,875,951,1049,1152,1214,1281,1427,1486"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,306,409,478,547,609,681,758,853,930,1007,1095,1198,1260,1324,1445",
+                        "endColumns": "114,135,102,68,68,61,71,76,94,76,76,87,102,61,63,120,58",
+                        "endOffsets": "165,301,404,473,542,604,676,753,848,925,1002,1090,1193,1255,1319,1440,1499"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,171,310,405,474,547,609,681,758,856,934,1012,1098,1201,1266,1336,1479",
+                        "endColumns": "115,138,94,68,72,61,71,76,97,77,77,85,102,64,69,142,61",
+                        "endOffsets": "166,305,400,469,542,604,676,753,851,929,1007,1093,1196,1261,1331,1474,1536"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,191,333,428,496,568,632,705,777,867,938,1009,1103,1211,1275,1344,1499",
+                        "endLines": "3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "endColumns": "45,43,94,67,71,63,72,71,89,70,70,93,107,63,68,154,60",
+                        "endOffsets": "186,328,423,491,563,627,700,772,862,933,1004,1098,1206,1270,1339,1494,1555"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,178,325,427,500,577,641,713,791,887,965,1043,1128,1228,1294,1361",
+                        "endColumns": "122,146,101,72,76,63,71,77,95,77,77,84,99,65,66,144",
+                        "endOffsets": "173,320,422,495,572,636,708,786,882,960,1038,1123,1223,1289,1356,1501"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-cs/values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,171,299,394,470,547,606,678,753,850,925,1000,1088,1191,1257,1323,1448",
+                        "endColumns": "115,127,94,75,76,58,71,74,96,74,74,87,102,65,65,124,62",
+                        "endOffsets": "166,294,389,465,542,601,673,748,845,920,995,1083,1186,1252,1318,1443,1506"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-gu_values-gu.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-gu/values-gu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,166,287,380,451,523,593,665,741,834,912,990,1080,1188,1252,1319,1466",
+                        "endColumns": "110,120,92,70,71,69,71,75,92,77,77,89,107,63,66,146,60",
+                        "endOffsets": "161,282,375,446,518,588,660,736,829,907,985,1075,1183,1247,1314,1461,1522"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,181,306,400,464,533,595,667,741,833,907,981,1066,1166,1229,1292,1420",
+                        "endColumns": "125,124,93,63,68,61,71,73,91,73,73,84,99,62,62,127,59",
+                        "endOffsets": "176,301,395,459,528,590,662,736,828,902,976,1061,1161,1224,1287,1415,1475"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,178,311,407,478,553,619,694,768,861,936,1011,1096,1197,1262,1328,1471",
+                        "endColumns": "122,132,95,70,74,65,74,73,92,74,74,84,100,64,65,142,61",
+                        "endOffsets": "173,306,402,473,548,614,689,763,856,931,1006,1091,1192,1257,1323,1466,1528"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/res/merged/androidTest/debug/values-pa_values-pa.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-pa/values-pa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,300,396,469,541,608,681,757,854,932,1010,1105,1220,1283,1352,1499",
+                        "endColumns": "121,122,95,72,71,66,72,75,96,77,77,94,114,62,68,146,59",
+                        "endOffsets": "172,295,391,464,536,603,676,752,849,927,1005,1100,1215,1278,1347,1494,1554"
+                    }
+                }
+            ]
+        }
+    ]
+}

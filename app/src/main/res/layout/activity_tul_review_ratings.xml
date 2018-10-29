@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_main"
+    tools:mContext="com.app.backyard.TulReviewRatingsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_second" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_reviews"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_no_tuls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:text="@string/no_reviews_yet"
+        android:textAllCaps="true"
+        android:textColor="@color/hint_color_dark"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:visibility="visible" />
+
+</RelativeLayout>

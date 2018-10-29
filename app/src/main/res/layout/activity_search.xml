@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:rsb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/primary_ripple"
+            android:padding="@dimen/_12"
+            android:src="@mipmap/ic_close" />
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/looking_for"
+            android:textColor="@color/white_color" />
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/primary_ripple"
+            android:gravity="center"
+            android:text="@string/clear"
+            android:textColor="@color/white_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_upper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black_color"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/ed_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/white_default"
+                        android:drawableLeft="@mipmap/ic_search_filter"
+                        android:ellipsize="end"
+                        android:hint="@string/enter_title"
+                        android:inputType="textCapSentences"
+                        android:maxLines="1"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/hint_color_dark" />
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_categories"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/white_ripple"
+                        android:drawableLeft="@mipmap/ic_tul_category"
+                        android:gravity="center_vertical"
+                        android:hint="@string/select_category"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/hint_color_dark" />
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_availbilty_modes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/white_default"
+                        android:drawableLeft="@mipmap/ic_anytime"
+                        android:gravity="center_vertical"
+                        android:hint="@string/availability_options"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/black_color" />
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_pickup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/white_default"
+                        android:drawableLeft="@mipmap/ic_pickup"
+                        android:gravity="center_vertical"
+                        android:hint="@string/pick_up_options"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/black_color" />
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/white_default"
+                        android:drawableLeft="@mipmap/ic_loc_pin"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:hint="@string/location"
+                        android:maxLines="1"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/black_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_best_rated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_ripple"
+                    android:orientation="horizontal">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_best_rating"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/best_rated"
+                        android:textAllCaps="true"
+                        android:textColor="@color/dark_grey" />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/sc_rated"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/Color1SwitchStyleDriver"
+                        app:showText="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_price_range"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_price_lable"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/tul_price"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hint_color_dark" />
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/tv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="end"
+                        android:textColor="@color/black_color" />
+
+                </LinearLayout>
+
+                <customviews.RangeSeekBar
+                    android:id="@+id/seekbar_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    app:activateOnDefaultValues="true"
+                    app:activeColor="@color/black_color"
+                    app:barHeight="@dimen/_2sdp"
+                    app:showLabels="false"
+                    app:thumbDisabled="@mipmap/ic_slider_dot"
+                    app:thumbNormal="@mipmap/ic_slider_dot"
+                    app:thumbPressed="@mipmap/ic_slider_dot"
+                    app:thumbShadowColor="@color/colorPrimary"
+                    rsb:absoluteMaxValue="999"
+                    rsb:absoluteMinValue="0"
+                    rsb:textAboveThumbsColor="@color/black_tint"
+                    rsb:valuesAboveThumbs="false" />
+
+
+                <LinearLayout
+                    android:id="@+id/ll_distance_range"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_distance_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/distance"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hint_color_dark" />
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/tv_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="end"
+                        android:textColor="@color/black_color" />
+
+                </LinearLayout>
+
+
+                <customviews.RangeSeekBar
+                    android:id="@+id/seekbar_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    app:activateOnDefaultValues="true"
+                    app:activeColor="@color/colorPrimary"
+                    app:barHeight="@dimen/_2sdp"
+                    app:showLabels="false"
+                    app:singleThumb="true"
+                    app:thumbDisabled="@mipmap/ic_slider_dot"
+                    app:thumbNormal="@mipmap/ic_slider_dot"
+                    app:thumbPressed="@mipmap/ic_slider_dot"
+                    app:thumbShadowColor="@color/orange_card_color"
+                    rsb:absoluteMaxValue="100"
+                    rsb:absoluteMinValue="0"
+                    rsb:textAboveThumbsColor="@color/black_tint" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <customviews.SemiboldTextView
+        android:id="@+id/tv_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/primary_ripple"
+        android:gravity="center"
+        android:text="@string/apply"
+        android:textColor="@color/white_color" />
+
+
+</LinearLayout>

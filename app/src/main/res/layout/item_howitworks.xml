@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_40"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view_side_above"
+            android:layout_width="1dp"
+            android:layout_height="@dimen/_3"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white_color" />
+
+        <ImageView
+            android:layout_width="@dimen/_10"
+            android:layout_height="@dimen/_10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_3"
+            android:src="@drawable/white_circle" />
+
+        <View
+            android:id="@+id/view_side_below"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_3"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white_color" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <customviews.SemiboldTextView
+            android:id="@+id/txt_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum_dolor"
+            android:textColor="@color/white_color"
+        />
+
+        <customviews.RegularTextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_20"
+            android:paddingRight="@dimen/_20"
+            android:paddingTop="@dimen/_12"
+            android:text="@string/lorem_ipsum_desc"
+            android:textColor="@color/white_color"
+       />
+
+    </LinearLayout>
+
+
+</LinearLayout>

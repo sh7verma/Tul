@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_tul"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:transitionName="@string/transition"
+                app:layout_collapseMode="parallax" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/cp_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/dropshadow"
+                android:padding="@dimen/_10"
+                app:ci_animator="@animator/indicator_animator"
+                app:ci_animator_reverse="@animator/indicator_animator_reverse"
+                app:ci_drawable="@drawable/black_radius_square"
+                app:ci_height="4dp"
+                app:ci_margin="6dp"
+                app:ci_width="10dp" />
+
+            <com.like.LikeButton
+                android:id="@+id/btn_shortlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="-15dp"
+                android:layout_marginRight="-15dp"
+                android:visibility="gone"
+                app:icon_size="25dp"
+                app:icon_type="heart" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/dropshadow_upper"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <include
+                    android:id="@+id/toolbar_header_view"
+                    layout="@layout/header_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/header_view_end_margin_right"
+                    android:visibility="gone" />
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/sv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <include layout="@layout/nearby_detail_tul" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_check_availbilty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/black_color"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="@color/white_color" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_per_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text=" per day"
+                android:textColor="@color/white_color" />
+
+        </LinearLayout>
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_availbilty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:text="@string/check_availability"
+            android:textAllCaps="true"
+            android:textColor="@color/black_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pause_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/black_color"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_pause_booking"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:text="@string/pause_tul_booking"
+            android:textColor="@color/white_color" />
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:text="@string/pause"
+            android:textColor="@color/black_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_cancel_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/black_color"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_cancellation_charges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/cancellation_charges"
+                android:textColor="@color/white_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_charges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="..."
+                android:textColorHint="@color/hint_color_dark"
+                android:text=""
+                android:textColor="@color/white_color" />
+
+        </LinearLayout>
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:text="@string/cancel"
+            android:textAllCaps="true"
+            android:textColor="@color/black_color" />
+
+    </LinearLayout>
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_cancel_lent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/primary_ripple"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:textAllCaps="true"
+        android:text="@string/cancel"
+        android:textColor="@color/white_color"
+        android:visibility="gone" />
+
+
+</android.support.design.widget.CoordinatorLayout>

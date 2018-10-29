@@ -1,0 +1,440 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-ms/values-ms.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,100,158,221,391",
+                        "endColumns": "44,57,62,169,50",
+                        "endOffsets": "95,153,216,386,437"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-hu/values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,102,158,216,366",
+                        "endColumns": "46,55,57,149,52",
+                        "endOffsets": "97,153,211,361,414"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-ca_values-ca.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-ca/values-ca.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,99,151,213,395",
+                        "endColumns": "43,51,61,181,49",
+                        "endOffsets": "94,146,208,390,440"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,96,147,198,287",
+                        "endColumns": "40,50,50,88,46",
+                        "endOffsets": "91,142,193,282,329"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-cs/values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,150,203,365",
+                        "endColumns": "45,48,52,161,51",
+                        "endOffsets": "96,145,198,360,412"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-ru/values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,99,152,207,381",
+                        "endColumns": "43,52,54,173,49",
+                        "endOffsets": "94,147,202,376,426"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,152,207,360",
+                        "endColumns": "45,50,54,152,51",
+                        "endOffsets": "96,147,202,355,407"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,99,151,206,386",
+                        "endColumns": "43,51,54,179,49",
+                        "endOffsets": "94,146,201,381,431"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,98,151,208,377",
+                        "endColumns": "42,52,56,168,48",
+                        "endOffsets": "93,146,203,372,421"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,96,150,208,408",
+                        "endColumns": "40,53,57,199,46",
+                        "endOffsets": "91,145,203,403,450"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-fi/values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,98,148,212,371",
+                        "endColumns": "42,49,63,158,48",
+                        "endOffsets": "93,143,207,366,415"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,96,140,184,262",
+                        "endColumns": "40,43,43,77,44",
+                        "endOffsets": "91,135,179,257,302"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-he_values-he.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,98,146,196,316",
+                        "endColumns": "42,47,49,119,48",
+                        "endOffsets": "93,141,191,311,360"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,102,155,219,411",
+                        "endColumns": "46,52,63,191,52",
+                        "endOffsets": "97,150,214,406,459"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,150,207,379",
+                        "endColumns": "45,48,56,171,51",
+                        "endOffsets": "96,145,202,374,426"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,94,139,184,265",
+                        "endColumns": "38,44,44,80,44",
+                        "endOffsets": "89,134,179,260,305"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-id_values-id.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,98,157,223,419",
+                        "endColumns": "42,58,65,195,48",
+                        "endOffsets": "93,152,218,414,463"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-el_values-el.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-el/values-el.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,107,162,221,408",
+                        "endColumns": "51,54,58,186,57",
+                        "endOffsets": "102,157,216,403,461"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,95,143,194,346",
+                        "endColumns": "39,47,50,151,45",
+                        "endOffsets": "90,138,189,341,387"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,154,211,377",
+                        "endColumns": "45,52,56,165,51",
+                        "endOffsets": "96,149,206,372,424"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,98,149,210,389",
+                        "endColumns": "42,50,60,178,48",
+                        "endOffsets": "93,144,205,384,433"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,97,145,202,384",
+                        "endColumns": "41,47,56,181,47",
+                        "endOffsets": "92,140,197,379,427"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,155,205,348",
+                        "endColumns": "45,53,49,142,51",
+                        "endOffsets": "96,150,200,343,395"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,105,168,233,297,361,422,485,550,612,684,730,781,836,968,1015",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,20",
+                        "endColumns": "49,62,64,63,63,60,62,64,61,71,45,50,54,131,46,12",
+                        "endOffsets": "100,163,228,292,356,417,480,545,607,679,725,776,831,963,1010,1244"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-vi/values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,100,158,218,388",
+                        "endColumns": "44,57,59,169,50",
+                        "endOffsets": "95,153,213,383,434"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-tr/values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,115,174,233,381",
+                        "endColumns": "59,58,58,147,49",
+                        "endOffsets": "110,169,228,376,426"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,97,148,210,385",
+                        "endColumns": "41,50,61,174,47",
+                        "endOffsets": "92,143,205,380,428"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,99,151,209,363",
+                        "endColumns": "43,51,57,153,49",
+                        "endOffsets": "94,146,204,358,408"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,94,139,184,265",
+                        "endColumns": "38,44,44,80,44",
+                        "endOffsets": "89,134,179,260,305"
+                    }
+                }
+            ]
+        }
+    ]
+}

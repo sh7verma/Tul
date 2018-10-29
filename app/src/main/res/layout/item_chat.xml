@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <customviews.BoldTextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_margin="5dp"
+        android:textColor="@color/black_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_receive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_receive"
+            android:layout_width="50dp"
+            android:visibility="gone"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_no_image" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_receive_inside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/txt_receive"
+                    android:layout_width="wrap_content"
+                    android:autoLink="web|email"
+                    android:textColorLink="@color/link_color"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black_color"
+                    android:background="@drawable/grey_cornor_radius_chat"
+                    android:gravity="left"
+                    android:text="Yes ljhfvdjbdsh dsvbchbfhbfvdhbfkhbfvkdshjbkfvhbhdsbkhdfvbhjvdsbkhjdfsvbkfvhjbf" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/txt_receive_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12.30am"
+                    android:textColor="@color/hint_color_dark" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_send_inside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/txt_send"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/black_cornor_radius_chat"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:autoLink="web|email"
+                    android:textColorLink="@color/link_color"
+                    android:gravity="end"
+                    android:text="Yes wow, test test test test testt ghjghjv jhnb ghjghjghest test tefs " />
+
+                <LinearLayout
+                    android:id="@+id/ll_send_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/txt_send_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="12.30am"
+                        android:textColor="@color/hint_color_dark" />
+
+                    <ImageView
+                        android:id="@+id/img_msg_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="1dp"
+                        android:src="@mipmap/ic_sent" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_send"
+            android:layout_width="50dp"
+            android:visibility="gone"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

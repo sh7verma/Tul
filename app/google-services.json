@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "276850413365",
+    "firebase_url": "https://tulapp-5c322.firebaseio.com",
+    "project_id": "tulapp-5c322",
+    "storage_bucket": "tulapp-5c322.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276850413365:android:fa47341d324447a2",
+        "android_client_info": {
+          "package_name": "com.app.tul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276850413365-emlbe59u5gfsb3dulpaai83vmo1j5pkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4P8ZUbGQvG806EI4DW_9_CF0OHQAjeII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

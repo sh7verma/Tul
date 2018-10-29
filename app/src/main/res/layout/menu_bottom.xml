@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_become"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20"
+        android:layout_marginRight="@dimen/_20"
+        android:layout_marginTop="@dimen/_48"
+        android:background="@drawable/white_ripple"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_12"
+        android:paddingTop="@dimen/_12"
+        android:text="@string/become_a_tul_lender"
+        android:textAllCaps="true"
+        android:textColor="@color/black_color"
+        android:layout_marginBottom="@dimen/_12"/>
+
+</LinearLayout>

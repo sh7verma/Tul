@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.tul">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:name="utils.MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/app_name" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1436825226428892"
+            android:exported="true" />
+
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WalkthroughActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".AfterWalkthroughActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".LandingActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="13.228.223.105"
+                    android:pathPattern=":3031"
+                    android:pathPrefix="/tuls"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".CreateProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".CountryCodeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".OptionPhotoSelection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogSlideAnim"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".CapturePhotoVideoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogSlideAnim"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".VerifyPhoneActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogSlideAnim"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".FullViewImageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".UserTourActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".OwnProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AddTulActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SelectCategoryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AdditionalPricesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ListYourTulActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LocationMapActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden|adjustNothing" />
+        <activity
+            android:name=".LocationSearchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".RulesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PreferencesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".TullFullViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".AddBankDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".OptionSelection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogSlideAnim"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".PlayVideo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".TulDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".TulRulesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".TulAdditionalChargesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".TulReviewRatingsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".TulCancellationPolicies"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".TulViewPreferencesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".TulAccountDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".NearByTulListingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".ListingTulDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".CategoryTulListAcitivty"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".AddPaymentCardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".AddPaymentAccountActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".CheckAvailablityActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".TulCheckOutDetailsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ActiveBookingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SignatureActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".RateYourExperienceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".PendingTaskActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".HistoryTulDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".TellFriendActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".InboxActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".BookingTulDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".PushBookingTulDetailActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".BlockedUsersActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name=".SearchResultActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name=".VerifyEmailActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name=".OtherUserProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name=".ChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChatTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ConversationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChatTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SearchChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChatTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".BroadCastDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogSlideAnim" />
+        <activity
+            android:name=".UserModeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".Sales.BecomeSellerActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".Sales.SalesTulDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".Sales.SalesTulListingActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".Sales.SellerProfileActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".Sales.SellerCreateProfileActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Sales.SellerBankDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".Sales.SalesListYourTulActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Sales.SaleVerifyPhoneNumber"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogSlideAnim"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".ChangeLanguageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <service android:name="services.FirebaseChatService" />
+        <service android:name="services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d76c254c751b8ef49caa796a74a08b1d1db2efc6" />
+
+        <activity
+            android:name=".Sales.SalesBuyTulDeliveryActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme" />
+        <activity
+            android:name=".Sales.SaleCheckoutActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Sales.SalesBookingCompletedActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Sales.SalesSearchActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Sales.SalesHistoryTulDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AfterLoginSelectMode"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/MainActionBarTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".EditVerifyEmail" />
+    </application>
+
+</manifest>

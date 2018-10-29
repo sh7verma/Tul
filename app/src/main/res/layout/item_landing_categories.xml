@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_marginRight="@dimen/_8">
+
+    <ImageView
+        android:id="@+id/img_cat"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/primary_ripple" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/dropshadow" />
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/_12"
+        android:paddingLeft="@dimen/_12"
+        android:paddingRight="@dimen/_12"
+        android:text="Hand TUL"
+        android:textColor="@color/white_color" />
+
+</RelativeLayout>

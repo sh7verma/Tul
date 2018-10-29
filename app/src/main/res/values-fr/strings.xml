@@ -1,0 +1,818 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">TUL</string>
+    <string name="login">Login</string>
+    <string name="app_id">1436825226428892</string>
+    <string name="google_maps_key">AIzaSyCh64XZrSCzDDZq0VTzz8ukjoY0sommN8</string>
+
+    //codes
+    <string name="cannot_connect_server">Connexion au serveur impossible.</string>
+    <string name="error">Quelque chose ne va pas!</string>
+    <string name="internet">Connexion internet non disponible!</string>
+    <string name="copy_">Lien copié</string>
+    <string name="success">200</string>
+    <string name="invalid_access_token">420</string>
+    <string name="treminate_account">405</string>
+    <string name="pause_error">306</string>
+    <string name="edit_error">302</string>
+    <string name="payment_exceed_code">423</string>
+
+    <string name="enter_email">Veuillez saisir un email</string>
+    <string name="enter_valid_email">Veuillez saisir un email valide</string>
+    <string name="enter_password">Veuillez saisir un mot de passe</string>
+    <string name="error_password">Le mot de passe doit contenir au moins 8 caractères</string>
+
+    <string name="start_sharing_your_tuls">COMMENCEZ À PARTAGER VOS TULs</string>
+    <string name="log_in">SE CONNECTER</string>
+    <string name="sign_up">S\'INSCRIRE</string>
+    <string name="login_with_facebook">SE CONNECTER AVEC FACEBOOK</string>
+    <string name="email">Email</string>
+    <string name="passowrd">Mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="password">Mot de passe</string>
+    <string name="by_signing_up_i_agree_to_the_terms_amp_conditions"><![CDATA[En m\'inscrivant, j\'accepte les Termes et Conditions d'utilisation.]]></string>
+    <string name="reset_password_hint">Veuillez entrer votre adresse email enregistré afin de recevoir le lien de réinitialisation. Vous allez pouvoir définir un nouveau mot de passe à partir de là. </string>
+    <string name="reset">RÉINITIALISER </string>
+    <string name="full_name">Nom Prénom</string>
+    <string name="enter_phone_no">Saisir le numéro de téléphone</string>
+    <string name="error_first_name">Veuillez saisir un prénom avec au moins 2 caractères.</string>
+    <string name="error_company_name">Veuillez saisir un nom de société avec au moins 2 caractères.</string>
+    <string name="error_last_name">Veuillez saisir un Nom de famille avec au moins 2 caractères.</string>
+    <string name="error_code">Veuillez saisir l\'indicatif de pays.</string>
+    <string name="error_pic">Veuillez ajouter votre photo de profil.</string>
+    <string name="enter_phone">Veuillez saisir le numéro de téléphone</string>
+    <string name="enter_vat">Veuillez saisir le numéro de TVA</string>
+    <string name="enter_loc">Veuillez saisir la localisation</string>
+
+    <string name="enter_valid_number">Veuillez saisir un numéro de téléphone valide</string>
+    <string name="verfication_hint_msg">Entrez le code de vérification qui a été envoyé au</string>
+    <string name="call">APPELER</string>
+    <string name="lender_side">CÔTÉ LOUEUR</string>
+    <string name="seller_side">CÔTÉ VENDEUR</string>
+    <string name="user_side">CÔTÉ UTILISATEUR</string>
+    <string name="lorem_ipsum_dolor">Lorem Ipsum Dolor</string>
+    <string name="lorem_ipsum_desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="looking_for_a_tul">Rechercher un TUL</string>
+    <string name="become_a_tul_lender">Devenir loueur de TUL</string>
+    <string name="listed_tuls">LISTED TULs</string>
+    <string name="my_short_list">MES FAVORIS</string>
+    <string name="update">METTRE À JOUR</string>
+    <string name="edit_profile">Éditer le profil</string>
+    <string name="add_your_first_tul">Ajouter votre premier TUL</string>
+    <string name="enter_title">Saisir le titre</string>
+    <string name="title">TITRE</string>
+    <string name="select_category">SÉLECTIONNER LA CATÉGORIE</string>
+    <string name="enter_descrption">Saisir la description</string>
+    <string name="descrption">DESCRIPTION</string>
+    <string name="enter_price">Saisir le prix</string>
+    <string name="price">PRIX</string>
+    <string name="additional_prices">Frais additionnels</string>
+    <string name="address">Adresse</string>
+    <string name="address_caps">ADRESSE</string>
+    <string name="select_address">Sélectionner l\'adresse</string>
+    <string name="rules">Règlement</string>
+    <string name="no_tuls">NOMBRE DE TULs DISPONIBLE</string>
+    <string name="list_tul">Présentez votre TUL</string>
+    <string name="security_charges">DÉPÔT DE SÉCURITÉ (REMBOURSABLE)</string>
+    <string name="convenience_fee">Frais supplémentaire</string>
+    <string name="add_additional_prices">Ajouter des frais additionnels</string>
+    <string name="transition">transition</string>
+    <string name="add_images_video">Ajouter Images/Vidéo</string>
+    <string name="enter_rule">Écrivez une règle</string>
+    <string name="cancel">Annuler</string>
+    <string name="add">AJOUTER</string>
+    <string name="add_rules">AJOUTER UN RÈGLEMENT</string>
+    <string name="set_location_on_map">DÉFINIR LA POSITION SUR LA CARTE</string>
+    <string name="search">Recherche</string>
+    <string name="no_location_found">Aucune position trouvée.</string>
+    <string name="fetching_current_location">Localisation de la position actuelle</string>
+    <string name="capture_video">Ajouter une vidéo</string>
+    <string name="add_photo">Ajouter une image</string>
+    <string name="confrim">Confirmer</string>
+    <string name="contact">Contacter</string>
+    <string name="delete_message">Êtes-vous sûr(e) de vouloir supprimer cette image ou vidéo? </string>
+    <string name="error_image_video_count">Vous ne pouvez pas télécharger plus de 7 images/vidéos.</string>
+    <string name="error_image_count">Vous ne pouvez pas télécharger plus de 6 images.</string>
+    <string name="error_video_count">Vous ne pouvez pas télécharger plus de 1 vidéo. </string>
+    <string name="save_amp_next"><![CDATA[Enregistrer & Suivant]]></string>
+    <string name="discard">Abandonner</string>
+    <string name="discard_message">Êtes-vous sûr(e) de vouloir abandonner?</string>
+    <string name="all_data_discard">En retournant en arrière, vos données vont être supprimées. Êtes-vous sûr(e) de vouloir abandonner?</string>
+    <string name="cancel_message">By cancelling booking you will be charged (£ 5) as per TUL policies. Are you sure you want to cancel?</string>
+    <string name="error_title">Veuiller saisir un titre</string>
+    <string name="error_category">Veuillez sélectionner une catégorie</string>
+    <string name="error_descrption">Veuillez saisir une description</string>
+    <string name="error_no_tuls">Veuillez indiquer le nombre d\'équipement</string>
+    <string name="error_no_valid">Veuillez saisir une quantité valide</string>
+    <string name="error_price">Veuillez saisir un prix valide</string>
+    <string name="error_discount">Veuillez saisir une remise valide</string>
+    <string name="error_valid_price">Veuillez saisir un prix valide</string>
+    <string name="error_addtional_prices">Veuillez définir les frais additionnels</string>
+    <string name="error_address">Veuillez saisir une adresse</string>
+    <string name="error_rules">Veuillez saisir le règlement</string>
+    <string name="error_image_video">Veuillez ajouter au moins 1 vidéo ou image.</string>
+    <string name="security_fee_error">Veuillez indiquer un montant de dépôt valide </string>
+    <string name="extra_fee_error">Veuillez indiquer un montant de supplément valide </string>
+    <string name="error_valid_fee">Veuillez indiquer un montant de frais valide</string>
+    <string name="weekdays">Jours ouvrés</string>
+    <string name="only_weekends">Week-end seulement</string>
+    <string name="both">Les deux</string>
+    <string name="available">DISPONIBLE</string>
+    <string name="start_time">HEURE DE DÉBUT</string>
+    <string name="end_time">HEURE DE FIN</string>
+    <string name="tul_delivery_available">TUL Livraison disponible</string>
+    <string name="delivery_charges">FRAIS DE LIVRAISON</string>
+    <string name="tul_delivery_pickup_time">TUL HEURE DE LIVRAISON / RAMASSAGE</string>
+    <string name="start_time_">Heure de début -</string>
+    <string name="prefrences">PRÉFÉRENCES</string>
+    <string name="error_start_time">Veuillez indiquer une heure de début</string>
+    <string name="error_end_time">Veuillez indiquer une heure de fin</string>
+    <string name="error_delivery_charges">Veuillez indiquer les frais de livraison</string>
+    <string name="error_delivery_Option">Veuillez choisir l\'option de livraison</string>
+    <string name="error_condition">Please enter condition of the TUL</string>
+    <string name="error_delivery_Option_inter">Please enter International delivery charges.</string>
+    <string name="error_delivery_Option_local">Please enter Local delivery charges.</string>
+    <string name="error_valid_charges">Please enter valid charges</string>
+    <string name="error_delivery_start_time">Please enter delivery start time</string>
+    <string name="error_delivery_end_time">Please enter delivery end time</string>
+    <string name="enter_your_bank_detail_to_recieve_your_fund_in_future">Saisissez vos coordonnées bancaires pour recevoir vos futurs revenus.</string>
+    <string name="country_code">Indicatif de pays</string>
+    <string name="add_currency">Devise</string>
+    <string name="account_no">N° DE COMPTE</string>
+    <string name="sort_code">IBAN</string>
+    <string name="sort_code_routing_number">CODE DE GUICHET</string>
+    <string name="first_name">Prénom</string>
+    <string name="first_name_caps">PRÉNOM</string>
+    <string name="last_name">Nom</string>
+    <string name="last_name_caps">NOM</string>
+    <string name="city">VILLE</string>
+    <string name="state">PAYS</string>
+    <string name="postal_code">CODE POSTAL</string>
+    <string name="add_id_verification_document">Ajouter un document de vérification d\'identité</string>
+    <string name="add_bank_detail">Ajouter les coordonnées bancaires</string>
+    <string name="dob">Date de naissance</string>
+    <string name="error_country_code">Veuillez choisir l\'indicatif de pays</string>
+    <string name="error_currency">Please select add_currency</string>
+    <string name="error_account">Veuillez choisir le N° de compte</string>
+    <string name="error_sort_code">Veuillez saisir IBAN</string>
+    <string name="error_city">Veuillez saisir la ville</string>
+    <string name="error_state">Veuillez saisir le pays</string>
+    <string name="error_postal_code">Veuillez saisir le code postal</string>
+    <string name="error_dob">Veuillez indiquer votre date de naissance</string>
+    <string name="error_document">Veuillez ajouter un document de vérification</string>
+    <string name="hint_prefrences">Définissez vos préférences telles que la disponibilité, l\'heure de début et si vous assurez ou non de livrer le matériel.</string>
+    <string name="just_click_on_add_button_for_new_rules">JCliquer simplement sur Ajouter pour définir de nouvelles règles. \nVeuillez mentionner si vous êtes disposé à livrer le TUL à plus de 5 miles. Vous pouvez vous accorder ensuite avec le locataire et définir le coût de la livraison dans Frais supplémentaire. </string>
+    <string name="reviews_and_ratings">Commentaires &amp; Notes</string>
+    <string name="cancellation_policies">Politique d\'annulation</string>
+    <string name="linked_account">Compte lié</string>
+    <string name="title_activity_tul_rules">TulRulesActivity</string>
+    <string name="overall_rating">Note globale</string>
+    <string name="AMENITIES">MODIFIER ÉQUIPEMENTS</string>
+    <string name="amenities">ÉQUIPEMENTS</string>
+    <string name="delete_tul">Êtes-vous sûr(e) de vouloir supprimer ce TUL?</string>
+    <string name="error_max_price">Vous pouvez régler les charges jusqu\'à 999 maximum</string>
+    <string name="error_max_Sales_price">Vous pouvez régler les charges jusqu\'à 999999 maximum</string>
+    <string name="error_max_discount">You can set max discount upto 99.99 only</string>
+    <string name="error_booking_days">Le nombre de jour de réservation doit être supérieure à 0</string>
+    <string name="error_booking_empty">Veuillez indiquer le nombre de jour de réservation</string>
+    <string name="error_max_fee">You can set  extra fee upto 999 only</string>
+    <string name="error_max_security_price">YVous pouvez régler dépôt de sécurité jusqu\'à 900000 maximum</string>
+    <string name="near_by_tul">TULs À PROXIMITÉ</string>
+    <string name="last_name_profile">Nom</string>
+    <string name="report_msg">Êtes-vous sûr(e) que vous voulez signaler ce TUL?</string>
+
+    <string name="remove_account">AÊtes-vous sûr(e) de vouloir supprimer ce compte?</string>
+    <string name="primary_account">Souhaitez-vous désigner comme compte principal?</string>
+    <string name="add_new_account">AJOUTER UN NOUVEAU COMPTE</string>
+    <string name="payment">PAIEMENTS</string>
+    <string name="saved_cards">CARTES ENREGISTRÉES</string>
+    <string name="accounts">COMPTES</string>
+    <string name="name_on_card">TITULAIRE DE LA CARTE</string>
+    <string name="card_no">NUMÉRO DE CARTE</string>
+    <string name="expiry_month">MOIS D\'EXPIRATION</string>
+    <string name="expiry_year">ANNÉE D\'EXPIRATION</string>
+    <string name="add_debit_credit_card">AJOUTER UNE CARTE DÉBIT/CRÉDIT</string>
+    <string name="error_card_no">Entrez le numéro de carte</string>
+    <string name="error_valid_card_no">Entrez un numéro de carte valider</string>
+    <string name="error_month">Entrez le mois d\'expiration</string>
+    <string name="error_year">Entrez l\'année d\'expiration</string>
+    <string name="error_valid_account">Entrez un numéro de compte valide</string>
+    <string name="error_name">Veuillez saisir un nom valide.</string>
+    <string name="select_deleivery_type">Sélectionner le type de livraison</string>
+    <string name="pause_message">Pause réservation désactivera réservation plus par les utilisateurs. Êtes-vous sûr de vouloir faire une pause réservation?</string>
+    <string name="resume_message">réservation de reprise permettra la réservation plus par les utilisateurs. Êtes-vous sûr de vouloir reprendre la réservation?</string>
+    <string name="HELP">AIDE</string>
+    <string name="RECEIPT">REÇU</string>
+    <string name="lent_tuls">TULs LOUÉS</string>
+    <string name="rented_tuls">TULs LOUÉS</string>
+    <string name="MESSAGES">MESSAGES</string>
+    <string name="NOTIFICATIONs">NOTIFICATIONS</string>
+    <string name="share_content">TUL is an App for your smartphone where you can BUY, SELL or HIRE
+any type of machinery and equipment. Check it out www.thetulapp.com</string>
+    <string name="password_mismatch">YVous devez saisir deux fois le même mot de passe pour le confirmer.</string>
+
+    <string name="current_date">June, 2016</string>
+    <string name="add_event">AJOUTER L\'ÉVENEMENT AU CALENDRIER</string>
+    <string name="sun">DIM</string>
+    <string name="mon">LUN</string>
+    <string name="tue">MAR</string>
+    <string name="wed">MER</string>
+    <string name="thu">JEU</string>
+    <string name="fri">VEN</string>
+    <string name="sat">SAM</string>
+    <string name="last_date">30</string>
+    <string name="dashboard">TABLEAU DE BORD</string>
+    <string name="dashboard_">Tableau de bord</string>
+    <string name="oderhistory_">Historique des commandes</string>
+    <string name="booked">Réservé</string>
+    <string name="pickup_delivery"><![CDATA[Pick-up et livraison]]></string>
+    <string name="returnn">Retourner</string>
+    <string name="all">Tout</string>
+    <string name="file_size_exceeds">Taille du fichier dépasse la limite de 100 Mo</string>
+    <string name="error_already_marked">3000</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="re_enter_password">Retaper mot de passe</string>
+    <string name="no_of_bookings">NOMBRE JOURS DE RÉSERVATION</string>
+    <string name="discount">REMISE(%)</string>
+    <string name="delivery_msg">Si vous êtes disposé pour livrer votre TUL à plus de 5 miles, précisez dans RÈGLEMENT et ajouter le coût dans le \ \ Frais supplémentaires » Prix ADDITIONNELS.</string>
+    <string name="Skip">PASSER>></string>
+    <string name="Skip_new">PASSER</string>
+    <string name="Login_First">Only registered users can proceed further. Do you want to Sign up?</string>
+    <string name="contact_admin_tul">Votre compte est suspendu par l\'administrateur. Vous pouvez contacter l'administrateur à <u>info@thetulapp.com</u>.</string>
+    <string name="contact_admin_user">Votre compte est suspendu par l\'administrateur. Vous pouvez contacter l'administrateur à <u>info@thetulapp.com</u>.</string>
+    <string name="verify_email_2">Votre identifiant email est pas vérifié, s\'il vous plaît assurez-vous que vous utilisez id e-mail authentifié. Seul id e-mail authentifié recevra un reçu de la transaction. Voulez-vous procéder sans vérification?</string>
+    <string name="verify_email">Votre e-mail n\'a pas encore été vérifiée. Cliquez sur le bouton RENVOYER pour recevoir l\'email de confirmation.</string>
+    <string name="place_is_blocked">Ce TUL est suspendu par l\'administrateur.</string>
+    <string name="owner_is_blocked">Le propriétaire a été suspendu par l\'administrateur.</string>
+    <string name="Admin_Percentage">Pourcentage de Transaction a été changé.</string>
+    <string name="no_tuls_booked_yet">NO Tuls RESERVES ENCORE!</string>
+    <string name="extra_fee_earning">GAGNER DES FRAIS SUPPLÉMENTAIRES</string>
+    <string name="delivery_further_than_5_miles_only_when_requested_from_borrower">Livraison à plus de 5 miles, que lorsque demandé à l\'emprunteur.</string>
+    <string name="done">FAIT</string>
+    <string name="no_blocked_user_yet">Pas encore de l\'utilisateur bloqué</string>
+    <string name="category">Catégorie</string>
+    <string name="self_pickup">auto ramassage</string>
+    <string name="address_">(Adresse)</string>
+    <string name="deliver_to_your_location">Livrer à votre emplacement</string>
+    <string name="delivery_available_within_100_kms_only">(Livraison disponible à 100 kms seulement)</string>
+    <string name="number_of_tuls">NOMBRE DE Tuls: -</string>
+    <string name="total">Total</string>
+    <string name="book_now">Réserver Maintenant</string>
+    <string name="no_message_yet">Aucun message Pourtant,</string>
+    <string name="select_country">Choisissez le pays</string>
+    <string name="create_profile">Créer un profil</string>
+    <string name="phone_no">N° Téléphone</string>
+    <string name="verify">VÉRIFIER</string>
+    <string name="lent_on">PRÊTÉ LE</string>
+    <string name="returned_on">RENDU LE</string>
+    <string name="you_rated">VOUS AVEZ NOTÉ</string>
+    <string name="search_dot">Chercher...</string>
+    <string name="looking_seller">RECHERCHE D\'UN VENDEUR</string>
+    <string name="add_basic_details_of_your_tul">Ajoutez des détails de base de votre TUL.</string>
+    <string name="your_earning">VOTRE GAGNER</string>
+    <string name="amount_of_days_for_discount_optional">MONTANT DE JOURS POUR DISCOUNT (EN OPTION)</string>
+    <string name="list_your_tul">LISTE DE VOTRE TUL</string>
+    <string name="list_your_tul_">Présentez votre TUL</string>
+    <string name="preferences">Préférences</string>
+    <string name="bank_details">Coordonnées Bancaires</string>
+    <string name="primary_account_linked">Compte principal lié</string>
+    <string name="check_availability">VÉRIFIER LA DISPONIBILITÉ</string>
+    <string name="pause_tul_booking">Pause TUL Réservation</string>
+    <string name="cancellation_charges">Frais d\'annulation</string>
+    <string name="loading_dot">Chargement...</string>
+    <string name="no_notifications_yet">Aucune notification Pourtant,</string>
+    <string name="no_tul_listed_yet">Pas TUL Pourtant Listed</string>
+    <string name="list_your_tul_become_a_lender_and_start_earning">Inscrivez votre TUL, devenir un prêteur, et commencer à gagner!</string>
+    <string name="list_your_tul_become_a_seller_and_start_earning">Inscrivez votre TUL, devenir un vendeur, et vendre votre TUL.</string>
+    <string name="rate_this_user">NOTER CET UTILISATEUR</string>
+    <string name="write_a_review">Écrire une critique...</string>
+    <string name="addd_rule">AJOUTER RÈGLE</string>
+    <string name="looking_for">À LA RECHERCHE DE</string>
+    <string name="clear">EFFACER</string>
+    <string name="availability_options">Options de Disponibilité</string>
+    <string name="pick_up_options">Prise en charge des options</string>
+    <string name="location">Lage</string>
+    <string name="best_rated">Les Mieux NotéS</string>
+    <string name="tul_price">Prix ​​TUL</string>
+    <string name="distance">Distance</string>
+    <string name="apply">POSTULER</string>
+    <string name="nno_result_found">\ NNO TROUVE RÉSULTAT</string>
+    <string name="choose_the_category_of_your_tul">Choisissez la catégorie de votre TUL</string>
+    <string name="change_password">Modifier le Mot de passe</string>
+    <string name="notifications">Notifications</string>
+    <string name="blocked_user">Blockierte Benutzer</string>
+    <string name="about">À propos</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="terms_amp_conditions"><![CDATA[Termes & Conditions]]></string>
+    <string name="faq">FAQ</string>
+    <string name="tell_a_friend">Parlez-en à un ami</string>
+    <string name="raise_dispute">Déclarer un litige</string>
+    <string name="logout">SE DÉCONNECTER</string>
+    <string name="i_hereby_declare_that_the_service_has_been_acknowledged">Je déclare par la présente que le service a été reconnu.</string>
+    <string name="sign_here">SIGNEZ ICI</string>
+    <string name="report">Signaler</string>
+    <string name="share_with_your_friends">Partagez avec vos amis</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="whatsapp">WHATSAPP</string>
+    <string name="message">MESSAGE</string>
+    <string name="security_deposit_refundable">Caution de garantie (Remboursable)</string>
+    <string name="extra_fee">Frais supplémentaire</string>
+    <string name="add_new_address">AJOUTER UNE NOUVELLE ADRESSE</string>
+    <string name="summary">RÉCAPITULATIF</string>
+    <string name="delivery_date">DATE DE LIVRAISON</string>
+    <string name="return_date">Date de retour</string>
+    <string name="extra_charges">Frais additionnels</string>
+    <string name="delivery_charges_">Frais de livraison</string>
+    <string name="total_amount">MONTANT TOTAL</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="add_new_card">AJOUTER UNE NOUVELLE CARTE</string>
+    <string name="proceed_to_pay">Procéder Au Paiement</string>
+    <string name="pause">INTERROMPRE</string>
+    <string name="no_reviews_yet">Aucun Avis Pour Le Moment</string>
+    <string name="no_rules_specified">Aucune règle spécifiée.</string>
+    <string name="booking_date">Date De Réservation</string>
+    <string name="not_received">NON REÇU</string>
+    <string name="received">REÇU</string>
+    <string name="delivery_charges_within_5_miles">FRAIS DE LIVRAISON (moins de 5 miles)</string>
+    <string name="delivery_charges_earning">FRAIS DE LIVRAISON GAGNER</string>
+    <string name="if_you_want_the_tul_to_be_delivered_further_than_5_miles_please_contact_lender">Si vous voulez que le TUL à livrer plus de 5 miles, s\'il vous plaît contacter prêteur.</string>
+    <string name="how_it_works">Comment ça marche</string>
+    <string name="next">Suivant</string>
+    <string name="we_have_sent_a_verification_link_to_your_email_please_click_this_to_continue_the_sign_up_process">Nous avons envoyé un lien de vérification à votre email, veuillez cliquer ici pour continuer le processus d\'inscription.</string>
+    <string name="resend">RENVOYER</string>
+    <string name="verify_your_email">VÉRIFIEZ VOTRE EMAIL</string>
+    <string name="broadcast">DIFFUSER</string>
+    <string name="ok">OK</string>
+    <string name="no_bookings_available">Aucune Réservation Disponible</string>
+    <string name="block">Bloquer</string>
+    <string name="clear_conversation">EFFACER CONVERSATION</string>
+    <string name="are_you_sure_you_want_to_logout">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="confirm">Confirmer</string>
+    <string name="take_a_photo">Prendre une photo</string>
+    <string name="select_from_gallery">Sélectionner depuis galerie</string>
+    <string name="view_photo">Voir la photo</string>
+    <string name="available_on">DISPONIBLE LE</string>
+    <string name="are_you_sure_you_want_to_discard_all_cards">Etes-vous sûr de vouloir supprimer toutes les cartes?</string>
+    <string name="no_tul_history_yet">Pas TUL Histoire Pourtant,</string>
+    <string name="no_account_added_yet">Aucun compte ajouté encore</string>
+    <string name="no_card_added_yet">Aucune carte ajoutée pour le moment</string>
+    <string name="no_tul_added_to_favourites_yet">NNon TUL ajouté aux favoris encore</string>
+    <string name="no_statistics_available">Pas de statistiques disponibles</string>
+    <string name="tul_charges">Coûts de l\'outil</string>
+    <string name="discount_">Remise</string>
+    <string name="security_deposit">dépôt de garantie</string>
+    <string name="less_service_fee">Moins de Frais de service</string>
+    <string name="gross_total">Total Brut</string>
+    <string name="security_refunded">Caution Remboursée</string>
+    <string name="total_price">Prix Total</string>
+    <string name="my_earnings">MES REVENUS</string>
+    <string name="lifetime">DURÉE TOTALE</string>
+    <string name="overall_tul_rating">Note globale TUL</string>
+    <string name="my_listed_tuls">MES Tuls REPRIS</string>
+    <string name="unblock">DÉBLOQUER</string>
+    <string name="total_earnings">TOTAL DES REVENUS</string>
+    <string name="booking_till_date">RÉSERVATION JUSQU\'À LA DATE</string>
+    <string name="spanner_set">Jeu de Clé</string>
+    <string name="owner">LOUEUR</string>
+    <string name="tul_returned">TUL Returned</string>
+    <string name="delete">SUPPRIMER</string>
+    <string name="earning">REVENUS</string>
+    <string name="active_bookings">Réservations en cours</string>
+    <string name="tul_handed">TUL Handed</string>
+    <string name="tul_received">TUL reçu</string>
+    <string name="quantity">Quantité</string>
+    <string name="available_today">Disponible aujourd\'hui</string>
+    <string name="bookings_today">réservations Aujourd\'hui</string>
+    <string name="rented">Loué</string>
+    <string name="about_this">À PROPOS</string>
+    <string name="start_time__">Heure de début</string>
+    <string name="end_time__">Heure de fin</string>
+    <string name="unblock_warning">Vous devez débloquer cet utilisateur pour envoyer un message.</string>
+    <string name="UNBLOCK">DÉBLOQUER</string>
+    <string name="internet_error">Connexion Internet non disponible!</string>
+    <string name="please_contact_lender">Il semble prêteur n\'a pas remis cette TUL encore, S\'il vous plaît contacter prêteur.</string>
+    <string name="remove_card">Etes-vous sûr de vouloir supprimer cette carte?</string>
+    <string name="borrower_not_returned">Il semble emprunteur n\'a pas retourné votre TUL.</string>
+    <string name="borrower_cancelled_tull">Emprunteur a annulé la réservation TUL.</string>
+    <string name="rating_reduced">En raison de l\'annulation de la réservation, votre note globale est réduite.</string>
+    <string name="lender_canceled_tull">Prêteur a annulé la réservation TUL.</string>
+    <string name="Someone_else_login_on_another">Quelqu\'un se connecte sur un autre appareil avec vos identifiants.</string>
+    <string name="no_internet_connection">Pas de connexion Internet</string>
+    <string name="received_your_tul_back">Êtes-vous sûr de recevoir votre TUL retour?</string>
+    <string name="tull_marked_return_warning">En marquant TUL comme \ « returned \ », vous devez vous assurer que le TUL a été retourné au prêteur. Voulez-vous vraiment marquer comme \ « Returned \ »?</string>
+    <string name="mark_tul_received">Êtes-vous sûr de vouloir marquer cette TUL comme reçue?</string>
+    <string name="mark_tull_handled_to_borrower">Vous n \'de remettre votre TUL à l\'emprunteur. Voulez-vous vraiment marquer cela comme \ « TUL Handed \ »?</string>
+    <string name="overall_rating_reduced">BEn annulant, votre note globale sera réduite, ce qui affectera vos réservations futures. Voulez-vous continuer?</string>
+    <string name="cancel_booking_charged_1">En vous d\'annuler la réservation vous sera facturé (</string>
+    <string name="cancel_booking_charged_2">) Selon les politiques Tul. Es-tu sûre de vouloir annuler?</string>
+    <string name="already_save_card">Vous avez déjà enregistré cette carte plus tôt.</string>
+    <string name="are_your_sure_want_make_payment">Êtes-vous sûr de vouloir faire ce paiement?</string>
+    <string name="cannot_edit_category">Vous ne pouvez pas modifier la catégorie de TUL</string>
+    <string name="enter_discount_percentage">S\'il vous plaît entrer le pourcentage de réduction.</string>
+    <string name="enter_no_booking_days">S\'il vous plaît entrer le nombre de réservations jours</string>
+    <string name="number_cannot_lessthan_already_booked_tul">Nombre de Tuls ne peut pas être inférieur à Tuls déjà réservé.</string>
+    <string name="something_was_wrong">Quelque chose ne va pas</string>
+    <string name="maxx_limit_2000">Max Limite de caractères est 2000</string>
+    <string name="clear_conversation_warining">Êtes-vous sûr de vouloir effacer cette conversation?</string>
+    <string name="list_your_tull">S\'il vous plaît Inscrivez votre TUL.</string>
+    <string name="pls_add_prefrences">S\'il vous plaît ajouter préfrences pour votre TUL.</string>
+    <string name="pls_add_bank_detail">S\'il vous plaît ajouter votre coordonnées bancaires pour TUL.</string>
+    <string name="already_link_with_tull">compte principal est déjà liée à la TUL. Vous pouvez modifier votre compte principal de la section des paiements</string>
+    <string name="reselect_your_location">Resélectionnez votre emplacement</string>
+    <string name="sorry_unable_to_fetch_location">Désolé pas chercher l\'emplacement</string>
+    <string name="notifications_caps">Notifications</string>
+    <string name="this_tull_canceled">Cette réservation TUL a été annulée.</string>
+    <string name="sign_above">Inscrivez-vous ci-dessus s\'il vous plaît</string>
+    <string name="report_contact_owner">Voulez-vous signaler ou propriétaire de contact?</string>
+    <string name="report_contact_borrower">Voulez-vous signaler ou contacter le locataire?</string>
+    <string name="please_wait_dot">S\'il vous plaît, attendez ...</string>
+    <string name="bufferinig_video_dot">Chargement de la video ...</string>
+    <string name="fetching_your_primary_account">Nous récupérions votre compte principal ...</string>
+    <string name="lented">LENTED</string>
+    <string name="please_rate">S\'il vous plaît fournir note.</string>
+    <string name="deliver_at_your_location">Offrir à votre emplacement</string>
+    <string name="pickup">Ramasser</string>
+    <string name="clear_filter_warining">Etes-vous sûr de vouloir effacer les filtres?</string>
+    <string name="filter_applied">Filtre appliqué</string>
+    <string name="filters_applied">filtres appliqués</string>
+    <string name="logout_warning">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="agree_term_conditions">BEn vous inscrivant j\'accepte les Termes et Conditions.</string>
+    <string name="pls_select_address">S\'il vous plaît sélectionner l\'adresse</string>
+    <string name="add_card_detail">S\'il vous plaît ajouter des détails de carte</string>
+    <string name="add_cvv_number">S\'il vous plaît entrer le numéro CVV</string>
+    <string name="invalid_cvv_number">Numéro incorrect CVV</string>
+    <string name="invalid_card">Carte invalide</string>
+    <string name="you_will_be_charged_extra_more_than_5_miles">Vous devrez payer des frais supplémentaires, comme lieu choisi est plus de 5 Miles.</string>
+    <string name="tull_removed_by_owner">Ce TUL a été supprimé par le propriétaire.</string>
+    <string name="pause_tull_booking">Pause TUL Réservation</string>
+    <string name="resume_tull_booking">Reprendre TUL Réservation</string>
+    <string name="no_review_yet">AUCUN AVIS POUR LE MOMENT</string>
+    <string name="tull_delivery_not_available">TUL LIVRAISON NON DISPONIBLE</string>
+    <string name="search_tull_with_filter">Rechercher une TUL des catégories données et appliquer les filtres souhaités.</string>
+    <string name="search_seller_with_filter">Rechercher un vendeur dans la liste donnée et appliquer les filtres souhaités.</string>
+
+    <string name="available_tull_displayed">Tuls disponibles seront affichés. Sélectionnez celui que vous trouvez approprié et procéder à emprunter.</string>
+    <string name="available_seller_displayed">Vendeurs disponibles seront affichés. Sélectionnez le TUL vous trouvez approprié et procéder à l\'achat.</string>
+
+    <string name="check_status_of_tull">Effectuer le paiement en ligne et vérifier l\'état de la TUL avec facilité.</string>
+    <string name="search_for_tull">Rechercher une TUL</string>
+    <string name="search_for_seller">Rechercher un VENDEUR</string>
+    <string name="book_a_tull">Réservez TUL</string>
+    <string name="book_a_sell">Acheter un TUL</string>
+    <string name="check_tull_status">Vérifier l\'état TUL</string>
+    <string name="become_a_lender">Devenir un prêteur</string>
+    <string name="become_seller">Devenir VENDEUR</string>
+    <string name="tull_with_all_required_information">Ajoutez vos propres Tuls avec toutes les informations nécessaires.</string>
+    <string name="track_the_tull_status">Suivre l\'état de tous les Tuls énumérés avec facilité.</string>
+    <string name="check_your_earning">Consultez facilement tous les statistiques et revenus.</string>
+    <string name="otp_successfully_set">OTP avec succès envoyé</string>
+    <string name="call_initiated_successfully">Appel lancé avec succès</string>
+    <string name="pls_add_rules">Veuillez ajouter une Règle</string>
+    <string name="deliver_in_5_miles">Livrer à votre emplacement (dans les 5 Miles)</string>
+    <string name="contact_delivery_option">Livrer à votre emplacement (5 mi) S\'il vous plaît contacter prêteur pour plus d'options de livraison.</string>
+    <string name="verification_email_sent">Vérification courrier a été envoyé</string>
+    <string name="sending_dot">ENVOI...</string>
+    <string name="sales">VENTES</string>
+    <string name="rentals">LOCATION</string>
+    <string name="sell">VENDRE</string>
+    <string name="buy">ACHETER</string>
+    <string name="company">Compagnie</string>
+    <string name="individual">Individuel</string>
+    <string name="who_are_you">QUI ES-TU?</string>
+    <string name="Work_in_progress">Travaux en cours</string>
+    <string name="become_a_buyer">Devenir Acheteur</string>
+    <string name="rent">Location</string>
+    <string name="become_a_seller">DEVENEZ VENDEUR</string>
+    <string name="delivery_address">ADRESSE DE LIVRAISON</string>
+    <string name="tul_address">ADRESSE TUL</string>
+    <string name="see_more">... Voir plus</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="end_time_new">Heure de fin</string>
+    <string name="start_time_new">Heure de début</string>
+    <string name="_12_00_am">12:00 AM</string>
+    <string name="no_of_bookings_new">Nombre de réservations</string>
+    <string name="about_this_new">À PROPOS</string>
+    <string name="more_tools_by">PLUS OUTILS DE</string>
+    <string name="old">Vieux</string>
+    <string name="looking_for_a_tul_caps">RECHERCHE D\'UN TUL</string>
+    <string name="TULs">Tuls</string>
+    <string name="SELLERS">LES VENDEURS</string>
+    <string name="sorry_no_tul_found">Pardon! Pas TUL trouvé</string>
+    <string name="DELIVERY_AVAILABLE">LIVRAISON DISPONIBLE</string>
+    <string name="seller">Vendeur</string>
+    <string name="more_tuls_by">PLUS DE Tuls</string>
+    <string name="about_this_">À PROPOS DE CET OUTIL</string>
+    <string name="linkedin">LINKEDIN</string>
+    <string name="share_tul">PARTAGER TUL</string>
+    <string name="copy">COPIE</string>
+    <string name="add_account">AJOUTER UN COMPTE</string>
+    <string name="to_receive_payments_in_future">Pour recevoir des paiements à l\'avenir.</string>
+    <string name="account_details">details du compte</string>
+    <string name="account_no_iban">COMPTE NO./IBAN</string>
+    <string name="vat_no">NUMÉRO DE TVA.</string>
+    <string name="swift">RAPIDE</string>
+    <string name="company_name">Nom de la compagnie</string>
+    <string name="company_name_">NOM DE LA COMPAGNIE</string>
+    <string name="warehouse_location">Lieu d\'entrepôt</string>
+    <string name="w">Lieu d\'entrepôt</string>
+    <string name="name_of_the_tul">NOM DU TUL</string>
+    <string name="quantity_cap">QUANTITÉ</string>
+    <string name="condition">CONDITION</string>
+
+    <string name="delivery_charges_locally">CHARGES DE LIVRAISON localement (par km)</string>
+    <string name="delivery_charges_inter">CHARGES DE LIVRAISON au niveau international (par km)</string>
+
+    <string name="delivery_charges_locally_miles">CHARGES DE LIVRAISON localement (MILES PER)</string>
+    <string name="delivery_charges_inter_miles">CHARGES DE LIVRAISON au niveau international (MILES PER)</string>
+
+    <string name="list">LISTE</string>
+    <string name="switch_to_rental">PASSAGE LOCATION</string>
+    <string name="switch_to_sales">PASSER À LA VENTE</string>
+    <string name="delivery">LIVRAISON</string>
+    <string name="international">International</string>
+    <string name="national">nationale</string>
+    <string name="delivery_location">Lieu de livraison</string>
+    <string name="you_have_to_pay_additional_delivery_charges">Vous devez payer des frais de livraison supplémentaires</string>
+    <string name="iron_cutter">MEULEUSE ÉLECTRIQUE</string>
+    <string name="Delivery_Charges">Frais de livraison</string>
+    <string name="bank_transfer">VIREMENT</string>
+    <string name="Used">Utilisé</string>
+    <string name="NEW">Nouveau</string>
+    <string name="YES">Oui</string>
+    <string name="NO">Non</string>
+    <string name="internationa">International</string>
+    <string name="enter_delivery_address">S\'il vous plaît Entrez votre adresse de livraison</string>
+    <string name="sale_trans_info">Nous offrons un service gratuit de 100% à l\'acheteur. En fonction du montant de la transaction, les vendeurs seront facturés les frais suivants:</string>
+    <string name="in_your_country">Dans votre pays</string>
+    <string name="card_payment">Paiement par carte</string>
+    <string name="keep_exploring">EXPLORER CONSERVER</string>
+    <string name="switch_to">BASCULER VERS</string>
+    <string name="invalid_expiry_date">date d\'expiration non valide</string>
+    <string name="secured_payments_with_stripe">Paiements sécurisés avec bande</string>
+    <string name="pay">PAYER</string>
+    <string name="pay_by">PAYER PAR</string>
+    <string name="qty_">Qty:</string>
+    <string name="owner_">LOUEUR</string>
+    <string name="rented_to_">LOUÉ À</string>
+
+    <string name="active_orders">ACTIVE COMMANDES</string>
+    <string name="past_orders">Historique de vos commandes</string>
+    <string name="history_">HISTORIQUE</string>
+    <string name="in_progress">En cours</string>
+    <string name="buyer_">ACHETEUR</string>
+    <string name="seller_">VENDEUR</string>
+    <string name="delivered_">Livré</string>
+    <string name="cancelled">ANNULÉ</string>
+    <string name="order_placed_">COMMANDE PASSÉE</string>
+    <string name="delivered_on">DÉLIVRÉ LE</string>
+    <string name="delivered_address">ADRESSE LIVRÉ</string>
+    <string name="payment_method">MODE DE PAIEMENT</string>
+    <string name="linked_account_">COMPTE LIÉ</string>
+    <string name="rate_your_experience">NOTEZ VOTRE EXPÉRIENCE</string>
+    <string name="ok_">OK</string>
+    <string name="camcellled_">ANNULÉ</string>
+    <string name="borrower_">LOCATAIRE</string>
+    <string name="returned_">RENDU</string>
+    <string name="received_">REÇU</string>
+    <string name="not_received_">NON REÇU</string>
+    <string name="handed_over_">DÉLIVRÉ</string>
+    <string name="condition_">Condition</string>
+    <string name="delete_account">SUPPRIMER LE COMPTE</string>
+    <string name="settings_">PARAMÈTRES</string>
+    <string name="rate_now">ÉVALUEZ MAINTENANT!</string>
+    <string name="edit_basic_detailof_">Modifier les détails de base de votre TUL.</string>
+    <string name="purchasing_orders_">COMMANDES D\'ACHAT</string>
+    <string name="no_result_fount">Aucun Résultat Trouvé</string>
+    <string name="delete_account_">La suppression de votre compte supprimera définitivement tout le contenu. Etes-vous sûr de vouloir supprimer votre compte?</string>
+    <string name="please_send_the_bank_payment_receipt_at_info_thetulapp_com">S\'il vous plaît envoyer le reçu de paiement bancaire à info@thetulapp.com</string>
+    <string name="resume_Tul_booking">Reprendre TUL Réservation</string>
+    <string name="booking_closed">Booking Closed</string>
+    <string name="resume">RESUME</string>
+    <string name="cancelled_on_">CANCELLED ON</string>
+    <string name="follow_us_on_instagram">Follow us on Instagram</string>
+    <string name="balance">BALANCE</string>
+    <string name="orders_">ORDERS</string>
+    <string name="currency_">Devise</string>
+    <string name="unverified_email">Unverified Email</string>
+    <string name="search_">Recherche</string>
+    <string name="account_no_">N° DE COMPTE</string>
+    <string name="sort_code_">IBAN</string>
+    <string name="iban_">IBAN</string>
+    <string name="you_can_skip_this_now">You can skip this for now.</string>
+    <string name="change_language">Change Language</string>
+
+    <style name="place_is_blocked">Votre TUL est suspendu par l\'administrateur. Vous pouvez
+        contacter l\'administrateur à info@thetulapp.com.</style>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+
+</resources>

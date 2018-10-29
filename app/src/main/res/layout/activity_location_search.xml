@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    android:padding="@dimen/_12"
+    tools:mContext=".LocationSearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ed_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/black_color"
+                android:drawableLeft="@mipmap/ic_search_loc"
+                android:drawablePadding="5dp"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:drawableStart="@mipmap/ic_search_loc"
+                android:hint="@string/search"
+                android:inputType="textCapSentences"
+                android:maxLines="1"
+                android:textColor="@color/white_color"
+                android:textColorHint="@color/white_color" />
+
+            <ImageView
+                android:id="@+id/img_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_cancel_search" />
+
+        </LinearLayout>
+
+        <customviews.SemiboldTextView
+            android:id="@+id/txt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_ripple"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:text="@string/cancel"
+            android:textColor="@color/black_color" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white_color"
+        android:listSelector="@color/white_color"
+        />
+
+
+</LinearLayout>

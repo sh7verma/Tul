@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,105,168,233,297,361,422,485,550,612,684,730,781,836,968,1015",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,20",
+                        "endColumns": "49,62,64,63,63,60,62,64,61,71,45,50,54,131,46,12",
+                        "endOffsets": "100,163,228,292,356,417,480,545,607,679,725,776,831,963,1010,1244"
+                    }
+                }
+            ]
+        }
+    ]
+}

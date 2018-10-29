@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.tul.HistoryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black_color">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/primary_ripple"
+            android:padding="@dimen/_12"
+            android:src="@mipmap/ic_back" />
+
+        <customviews.SemiboldTextView
+            android:id="@+id/txt_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAllCaps="true"
+            android:textColor="@color/white_color" />
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_12"
+
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_search_inbox" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_inbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_color"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/white_color"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/white_color"
+        app:tabTextColor="@color/hint_color_dark" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_inbox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

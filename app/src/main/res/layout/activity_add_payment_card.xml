@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_second" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/ll_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_name_on_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/name_on_card"
+                    android:inputType="textCapWords"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textAllCaps="true"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="NAME ON CARD"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_light" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_card_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/card_no"
+                    android:inputType="number"
+                    android:maxLength="23"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="CARD NO."
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_light" />
+
+                <LinearLayout
+                    android:id="@+id/ll_expiry_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_ripple"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_expiry_month_hint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/expiry_month"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hint_color_dark" />
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/tv_expiry_month"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="---"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/black_color" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_light" />
+
+                <LinearLayout
+                    android:id="@+id/ll_expiry_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_ripple"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_expiry_year_hint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/expiry_year"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hint_color_dark" />
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/tv_expiry_year"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="---"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black_color"
+                        android:textColorHint="@color/black_color" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_light" />
+
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_cvv_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:visibility="gone"
+                    android:hint="CVV"
+                    android:inputType="numberPassword"
+                    android:maxLength="33"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="CVV"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/hint_color_light" />
+
+                <LinearLayout
+                    android:id="@+id/ll_save_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_ripple"
+                    android:visibility="gone"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_no_save" />
+
+                    <customviews.RegularTextView
+                        android:id="@+id/txt_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Save this card"
+                        android:textColor="@color/black_color" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="1dp" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/bt_add_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/primary_ripple">
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/txt_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="ADD CARD"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_color" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

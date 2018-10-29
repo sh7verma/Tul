@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_color"
+        android:orientation="vertical">
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_rules_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/just_click_on_add_button_for_new_rules"
+            android:textColor="@color/white_color_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_rules_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white_color"
+        android:weightSum="10">
+
+        <ListView
+            android:id="@+id/lv_add_rules"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8.5"
+            android:divider="@null"
+            android:listSelector="@null">
+
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/ll_add_option"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/bt_rule_add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.95"
+                android:background="@color/black_color"
+                android:text="@string/addd_rule"
+                android:textColor="@color/white_color"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/bt_done"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.95"
+                android:background="@color/black_color"
+                android:text="@string/crop__done"
+                android:textColor="@color/white_color"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

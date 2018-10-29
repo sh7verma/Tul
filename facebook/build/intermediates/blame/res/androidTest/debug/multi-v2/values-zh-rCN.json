@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,138,227,319,381,446,503,571,639,724,793,862,938,1030,1091,1153,1239",
+                        "endColumns": "82,88,91,61,64,56,67,67,84,68,68,75,91,60,61,85,57",
+                        "endOffsets": "133,222,314,376,441,498,566,634,719,788,857,933,1025,1086,1148,1234,1292"
+                    }
+                }
+            ]
+        }
+    ]
+}

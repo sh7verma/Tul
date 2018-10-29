@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sk/values-sk.xml",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,154,211,377",
+                        "endColumns": "45,52,56,165,51",
+                        "endOffsets": "96,149,206,372,424"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hi/values-hi.xml",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/facebook/build/intermediates/packaged_res/debug/values-hi/values-hi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,171,299,393,462,535,601,676,753,847,921,995,1088,1206,1270,1339,1484",
+                        "endColumns": "115,127,93,68,72,65,74,76,93,73,73,92,117,63,68,144,60",
+                        "endOffsets": "166,294,388,457,530,596,671,748,842,916,990,1083,1201,1265,1334,1479,1540"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_second" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ll_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_change_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/change_password"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:id="@+id/view_change"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:id="@+id/ll_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_notifications"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/notifications"
+                    android:textColor="@color/dark_grey" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/sc_notifcations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Color1SwitchStyleDriver"
+                    app:showText="false" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:id="@+id/ll_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_email_notifications"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email Notifications"
+                    android:textColor="@color/dark_grey" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/sc_email_notifcations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Color1SwitchStyleDriver"
+                    app:showText="false" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"
+                android:visibility="gone" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_blocked_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/blocked_user"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/about"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/terms_amp_conditions"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_faq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/faq"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="Send Us Feedback"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tell_friend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/tell_a_friend"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_dispute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/raise_dispute"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_change_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/change_language"
+                android:textColor="@color/dark_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="@color/light_grey" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_instagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/gradient_instagram"
+                android:gravity="center"
+                android:text="@string/follow_us_on_instagram"
+                android:textAllCaps="true"
+                android:textColor="@color/white_color"
+                android:visibility="visible" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/primary_ripple"
+                android:gravity="center"
+                android:text="@string/logout"
+                android:textAllCaps="true"
+                android:textColor="@color/white_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_delete_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/primary_ripple"
+                android:gravity="center"
+                android:text="@string/delete_account"
+                android:textAllCaps="true"
+                android:textColor="@color/white_color" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_version"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_tul_logo" />
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Version 1.0" />
+
+    </LinearLayout>
+</LinearLayout>

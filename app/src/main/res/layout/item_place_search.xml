@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_ripple"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_loc_pin" />
+
+        <customviews.MediumTextView
+            android:id="@+id/tvset_location_on_map"
+            android:layout_margin="@dimen/_16"
+            android:layout_width="match_parent"
+            android:text="Test"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_color"/>
+    </LinearLayout>
+</LinearLayout>

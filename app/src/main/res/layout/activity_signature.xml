@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_color"
+    android:id="@+id/ll_main"
+    tools:context="com.app.tul.SignatureActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <customviews.RegularTextView
+        android:id="@+id/tv_sign_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black_color"
+        android:text="@string/i_hereby_declare_that_the_service_has_been_acknowledged" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gesture_signature"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:clickable="false"
+        android:eventsInterceptionEnabled="true"
+        android:fadeEnabled="false"
+        android:fadeOffset="10000000"
+        android:gestureColor="@color/colorPrimary"
+        android:gestureStrokeLengthThreshold="0.1"
+        android:gestureStrokeType="multiple"
+        android:longClickable="false"
+        android:orientation="vertical"
+        android:splitMotionEvents="true"
+        android:uncertainGestureColor="#000000" />
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/sign_here"
+            android:textColor="@color/hint_color_light" />
+
+
+    </RelativeLayout>
+
+    <customviews.SemiboldTextView
+        android:id="@+id/tv_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/primary_ripple"
+        android:gravity="center"
+        android:text="@string/report"
+        android:textAllCaps="true"
+        android:textColor="@color/white_color" />
+
+    <customviews.SemiboldTextView
+        android:id="@+id/tv_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/primary_ripple"
+        android:gravity="center"
+        android:text="@string/done"
+        android:textAllCaps="true"
+        android:textColor="@color/white_color" />
+
+</LinearLayout>

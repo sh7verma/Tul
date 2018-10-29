@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_click"
+    android:background="@drawable/white_ripple"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="1dp"
+        android:layout_height="25dp"
+        android:background="@color/red_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_event_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/img_right_arrow"
+        android:layout_toRightOf="@+id/view_line"
+        android:orientation="vertical">
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_eventType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOKING"
+            android:textAllCaps="true"
+            android:textColor="@color/black_color" />
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_eventDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_color"
+            android:text="Your TUL drill machine is booked by" />
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_event_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_color"
+            android:text="Your TUL drill machine is booked by" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_arrow"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ll_event_details"/>
+</RelativeLayout>

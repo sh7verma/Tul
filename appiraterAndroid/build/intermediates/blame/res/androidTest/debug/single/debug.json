@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/layout_appirater.xml.flat",
+        "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/layout/appirater.xml"
+    },
+    {
+        "merged": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/res/merged/androidTest/debug/drawable_button_appirator.xml.flat",
+        "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/drawable/button_appirator.xml"
+    }
+]

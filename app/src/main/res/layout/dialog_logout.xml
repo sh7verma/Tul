@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_default"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical">
+
+        <customviews.BoldTextView
+            android:id="@+id/txt_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:text="@string/are_you_sure_you_want_to_logout"
+            android:textColor="@color/black_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal">
+
+        <customviews.SemiboldTextView
+            android:id="@+id/txt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:text="@string/cancel"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary" />
+
+        <customviews.SemiboldTextView
+            android:id="@+id/txt_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:text="@string/confirm"
+            android:layout_marginRight="@dimen/_5"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+</LinearLayout>

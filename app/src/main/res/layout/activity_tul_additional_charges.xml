@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_second" />
+
+    <customviews.RegularTextView
+        android:id="@+id/txt_bank_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_color"
+        android:maxLength="100"
+        android:visibility="gone"
+        android:text="@string/lorem_ipsum_desc"
+        android:textColor="@color/light_grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_tul_security_charges"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/white_ripple"
+            android:text="@string/security_deposit_refundable"
+            android:textColor="@color/black_color" />
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_tul_security_charges_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:text="$ 20"
+            android:textAllCaps="true"
+            android:textColor="@color/black_color" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hint_color_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_tul_convenience_fee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white_color"
+            android:text="@string/extra_fee"
+            android:textColor="@color/black_color" />
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_tul_convenience_fee_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white_color"
+            android:text="$ 5"
+            android:textAllCaps="true"
+            android:textColor="@color/black_color" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hint_color_dark" />
+
+    <LinearLayout
+        android:id="@+id/ll_extra_earning"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_extra_earning_hint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white_color"
+            android:text="Extra Earning"
+            android:textColor="@color/black_color" />
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_extra_earning_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white_color"
+            android:text="$ 5"
+            android:textAllCaps="true"
+            android:textColor="@color/black_color" />
+
+        <ImageView
+            android:id="@+id/img_your_earning_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/white_ripple"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_info" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@color/hint_color_dark" />
+
+
+    <customviews.RegularTextView
+        android:id="@+id/txt_hint_charges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delivery_further_than_5_miles_only_when_requested_from_borrower"
+        android:textColor="@color/hint_color_dark" />
+
+</LinearLayout>

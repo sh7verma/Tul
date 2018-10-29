@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_booking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="false">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_my_booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_no_active_tuls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="@dimen/_10"
+                android:drawableTop="@mipmap/ic_no_tul"
+                android:text="@string/no_tuls_booked_yet"
+                android:textColor="@color/hint_color_dark"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_tul_lent"
+            android:layout_width="match_parent"
+             android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_lent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_no_lent_tuls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="@dimen/_10"
+                android:drawableTop="@mipmap/ic_no_tul"
+                android:text="@string/no_tuls_booked_yet"
+                android:textColor="@color/hint_color_dark" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

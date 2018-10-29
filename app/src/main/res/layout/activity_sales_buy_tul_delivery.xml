@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.tul.Sales.SalesBuyTulDeliveryActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingRight="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_5sdp">
+
+                    <customviews.SemiboldTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/delivery"
+                        android:textColor="@color/white_color"
+                        android:textSize="@dimen/_15ssp" />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/sc_delivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/Color2SwitchStyleDriver"
+                        app:showText="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_delivery_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/_15sdp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingEnd="@dimen/_15sdp"
+                            android:paddingStart="@dimen/_15sdp">
+
+                            <customviews.RegularTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:text="@string/in_your_country"
+                                android:textColor="@color/white_color"
+                                android:textSize="@dimen/_12ssp"
+                                android:theme="@style/Color3SwitchStyleDriver" />
+
+                            <customviews.RegularTextView
+                                android:id="@+id/txt_national_charges"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:layout_weight="1"
+                                android:text="per/km (per Quantity)"
+                                android:textColor="@color/white_color"
+                                android:textSize="@dimen/_8ssp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+
+                            android:paddingEnd="@dimen/_15sdp"
+                            android:paddingStart="@dimen/_15sdp">
+
+                            <customviews.RegularTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/international"
+                                android:textColor="@color/white_color"
+                                android:textSize="@dimen/_12ssp"
+                                android:theme="@style/Color3SwitchStyleDriver" />
+
+                            <customviews.RegularTextView
+                                android:id="@+id/txt_international_charges"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="per/km (per Quantity)"
+                                android:textColor="@color/white_color"
+                                android:textSize="@dimen/_8ssp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <customviews.MaterialEditText
+                        android:id="@+id/ed_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:drawableRight="@mipmap/ic_right_arrow"
+                        android:focusableInTouchMode="false"
+                        android:gravity="left"
+                        android:hint="@string/delivery_location"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:paddingStart="@dimen/_15sdp"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="@dimen/_12sdp"
+                        app:met_floatingLabel="normal"
+                        app:met_floatingLabelAnimating="true"
+                        app:met_floatingLabelText="@string/delivery_location"
+                        app:met_floatingLabelTextColor="@color/light_grey"
+                        app:met_floatingLabelTextSize="@dimen/_12sdp"
+                        app:met_hideUnderline="true"
+                        app:met_textColor="@color/white_color"
+                        app:met_textColorHint="@color/hint_color_light" />
+
+                    <customviews.RegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@mipmap/ic_info"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:paddingLeft="@dimen/_15sdp"
+                        android:paddingStart="@dimen/_15sdp"
+                        android:text="@string/you_have_to_pay_additional_delivery_charges"
+                        android:textColor="@color/light_grey"
+                        android:textSize="@dimen/_8ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_tul_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_15sdp"
+                android:text="@string/iron_cutter"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14ssp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:paddingStart="@dimen/_15sdp">
+
+                <customviews.SemiboldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/quantity"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/txt_quantity_count"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/black_stroke_default"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <ImageView
+                        android:id="@+id/img_minus"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/black_color_white_stroke"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@mipmap/ic_minus"
+                        android:text="@string/quantity" />
+
+                    <ImageView
+                        android:id="@+id/img_add"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/black_color_white_stroke"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@mipmap/ic_plus"
+                        android:text="@string/quantity" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_margin="@dimen/_15sdp"
+                android:background="@mipmap/dotted_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:paddingStart="@dimen/_15sdp">
+
+                <customviews.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tul_price"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/txt_calculate_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/txt_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_delivery_charges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:visibility="gone">
+
+                <customviews.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Delivery_Charges"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/txt_calculate_delivery_charges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/txt_delivery_charges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+
+            </LinearLayout>
+
+            <customviews.RegularTextView
+                android:id="@+id/txt_delivery_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_10ssp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_margin="@dimen/_15sdp"
+                android:background="@mipmap/dotted_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:paddingStart="@dimen/_15sdp">
+
+                <customviews.SemiboldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:text="@string/total_amount"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/txt_total_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12ssp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_stripe" />
+
+                <customviews.RegularTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="@string/secured_payments_with_stripe"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/_10ssp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_15sdp"
+        android:background="@drawable/primary_ripple"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/next"
+        android:textAllCaps="true"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/_15sdp" />
+</LinearLayout>

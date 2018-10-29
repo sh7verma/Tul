@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_15sdp"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/cv_review_person_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@color/black_color" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_review_person_name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="John"
+                android:textColor="@color/black_color" />
+
+            <customviews.MediumTextView
+                android:id="@+id/tv_review_date"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="July 2017"
+                android:textColor="@color/hint_color_dark" />
+
+        </LinearLayout>
+
+        <customviews.MediumTextView
+            android:id="@+id/bt_review_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:background="@color/light_grey"
+            android:padding="@dimen/_5sdp"
+            android:text="Report"
+            android:textColor="@color/black_color"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <com.iarcuschin.simpleratingbar.SimpleRatingBar
+            android:id="@+id/srb_tul_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            app:srb_borderColor="@color/black_color"
+            app:srb_fillColor="@color/black_color"
+            app:srb_numberOfStars="5"
+            app:srb_starBackgroundColor="@color/light_grey"
+            app:srb_starBorderWidth="0.5"
+            app:srb_starSize="@dimen/_12sdp"
+            app:srb_stepSize="1" />
+
+        <LinearLayout
+            android:id="@+id/ll_stars"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+
+
+    <customviews.MediumTextView
+        android:id="@+id/tv_review_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:maxLines="3"
+        android:text="@string/lorem_ipsum_desc"
+        android:textColor="@color/hint_color_dark" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@color/hint_color_dark" />
+</LinearLayout>

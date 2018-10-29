@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rl_tul_rating_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_color"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_tul_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Spanning tool"
+                    android:textColor="@color/black_color" />
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_tul_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$20 "
+                    android:textColor="@color/black_color" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_time_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="per day" />
+
+                <ImageView
+                    android:id="@+id/img_your_earning_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/white_ripple"
+                    android:src="@mipmap/ic_info" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp">
+
+                <com.iarcuschin.simpleratingbar.SimpleRatingBar
+                    android:id="@+id/rating_bar_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="@null"
+                    app:srb_borderColor="@color/hint_color_light"
+                    app:srb_fillColor="@color/black_color"
+                    app:srb_numberOfStars="5"
+                    app:srb_starBackgroundColor="@color/hint_color_light"
+                    app:srb_starBorderWidth="0.5"
+                    app:srb_starSize="15dp"
+                    app:srb_stepSize="1" />
+
+                <LinearLayout
+                    android:id="@+id/ll_stars"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/pb_load"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/ll_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_earning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_color"
+                android:textColor="@color/black_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_color"
+                android:textColor="@color/black_color"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_tul_total_main_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black_color"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_total_tuls"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <customviews.RegularTextView
+                            android:id="@+id/tv_total_tuls"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/quantity"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white_color" />
+
+                        <customviews.SemiboldTextView
+                            android:id="@+id/tv_total_tuls_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="10"
+                            android:textColor="@color/white_color" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_booked_tuls"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_booked_tuls"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/bookings_today"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white_color" />
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/tv_booked_tuls_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="10"
+                        android:textColor="@color/white_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_free_tuls"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <customviews.RegularTextView
+                            android:id="@+id/tv_free_tul"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/available_today"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white_color" />
+
+                        <customviews.SemiboldTextView
+                            android:id="@+id/tv_free_tuls_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="10"
+                            android:textColor="@color/white_color" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_light" />
+
+            <LinearLayout
+                android:id="@+id/ll_rented_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black_color"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_rented"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_rented"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rented"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white_color" />
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/tv_rented_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textColor="@color/white_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_total_earned"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <customviews.RegularTextView
+                            android:id="@+id/tv_total_earned"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/total_earnings"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white_color" />
+
+                        <customviews.SemiboldTextView
+                            android:id="@+id/tv_total_earned_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="$ 10"
+                            android:textColor="@color/white_color" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_about_tul_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_grey"
+                android:text="@string/about_this" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_about_tul_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_grey"
+                android:text="@string/lorem_ipsum_desc"
+                android:textColor="@color/black_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_address_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="@color/black_color" />
+
+            <RelativeLayout
+                android:id="@+id/rl_map"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/ll_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tul_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_color"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/ll_tul_start_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_tul_start_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start_time__" />
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/tv_tul_start_time_no"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:text="12:00 AM"
+                        android:textColor="@color/black_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_tul_end_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <customviews.RegularTextView
+                        android:id="@+id/tv_tul_end_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/end_time__" />
+
+                    <customviews.SemiboldTextView
+                        android:id="@+id/tv_tul_end_time_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+
+                        android:text="12:00 PM"
+                        android:textColor="@color/black_color" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@mipmap/dotted_line" />
+
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_rules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/rules"
+                android:textAllCaps="true"
+                android:textColor="@color/black_color" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_additional_prices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/additional_prices"
+                android:textAllCaps="true"
+                android:textColor="@color/black_color" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_reviews_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/reviews_and_ratings"
+                android:textAllCaps="true"
+                android:textColor="@color/black_color" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_cancellation_policies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/cancellation_policies"
+                android:textAllCaps="true"
+                android:textColor="@color/black_color" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_preferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/prefrences"
+                android:textAllCaps="true"
+                android:textColor="@color/black_color" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_linked_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/linked_account"
+                android:textAllCaps="true"
+                android:textColor="@color/black_color" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark"
+                android:visibility="invisible" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_linked_account2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:drawableRight="@mipmap/ic_arrow"
+                android:text="@string/linked_account"
+                android:textAllCaps="true"
+                android:textColor="@color/hint_color_dark"
+                android:visibility="invisible" />
+
+            <View
+                android:id="@+id/view82"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

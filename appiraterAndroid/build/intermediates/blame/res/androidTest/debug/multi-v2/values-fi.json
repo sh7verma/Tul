@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-fi/values-fi.xml",
+            "map": [
+                {
+                    "source": "/home/dev/Documents/Live/Tul/appiraterAndroid/build/intermediates/packaged_res/debug/values-fi/values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,98,148,212,371",
+                        "endColumns": "42,49,63,158,48",
+                        "endOffsets": "93,143,207,366,415"
+                    }
+                }
+            ]
+        }
+    ]
+}

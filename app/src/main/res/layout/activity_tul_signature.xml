@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    tools:context="com.app.tul.PendingTaskActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_upper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_color"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@color/green_color" />
+
+        <LinearLayout
+            android:id="@+id/ll_tul_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_tul_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iron Cutter"
+                android:textColor="@color/white_color" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Power TUL"
+                android:textColor="@color/white_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_booking_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/booking_date"
+                android:textAllCaps="true"
+                android:textColor="@color/hint_color_dark" />
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 Aug,10:10 AM - 17 Aug,10:10 AM"
+                android:textColor="@color/white_color" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_color"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_owner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/owner"
+                android:textAllCaps="true"
+                android:textColor="@color/white_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_owner_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Devid Clark"
+                android:textColor="@color/white_color" />
+        </LinearLayout>
+
+
+        <customviews.RegularTextView
+            android:id="@+id/tv_not_received"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_grey_default"
+            android:text="@string/not_received"
+            android:textColor="@color/white_color" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rv_below"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_buttons">
+
+
+            <android.gesture.GestureOverlayView
+                android:id="@+id/gesture_signature"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:clickable="false"
+                android:eventsInterceptionEnabled="true"
+                android:fadeEnabled="false"
+                android:fadeOffset="10000000"
+                android:gestureColor="@color/colorPrimary"
+                android:gestureStrokeLengthThreshold="0.1"
+                android:gestureStrokeType="multiple"
+                android:longClickable="false"
+                android:orientation="vertical"
+                android:splitMotionEvents="true"
+                android:uncertainGestureColor="#000000" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_toolbar_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/black_circular_corner"
+                android:text="@string/clear"
+                android:textAllCaps="true"
+                android:textColor="@color/white_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/sign_here"
+                android:textColor="@color/hint_color_light" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_bt_not_received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/primary_ripple"
+                android:gravity="center"
+                android:text="@string/not_received"
+                android:textColor="@color/white_color" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space"
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_bt_received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/primary_ripple"
+                android:gravity="center"
+                android:text="@string/received"
+                android:textColor="@color/white_color" />
+        </LinearLayout>
+
+
+        <customviews.SemiboldTextView
+            android:id="@+id/txt_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/primary_ripple"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="@string/done"
+            android:textColor="@color/white_color"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

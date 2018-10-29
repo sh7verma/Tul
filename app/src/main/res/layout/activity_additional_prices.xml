@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <customviews.RegularTextView
+                android:id="@+id/txt_hint_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:maxLength="100"
+                android:text="@string/lorem_ipsum_desc"
+                android:textColor="@color/white_color"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_security"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/security_charges"
+                    android:inputType="numberDecimal"
+                    android:maxLength="9"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/security_charges"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_convience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/convenience_fee"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/convenience_fee"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <customviews.MaterialEditText
+                        android:id="@+id/ed_extra_earning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="@string/extra_fee_earning"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        app:met_floatingLabel="normal"
+                        app:met_floatingLabelAnimating="true"
+                        app:met_floatingLabelText="@string/extra_fee_earning"
+                        app:met_floatingLabelTextColor="@color/hint_color_dark"
+                        app:met_hideUnderline="true"
+                        app:met_textColor="@color/black_color"
+                        app:met_textColorHint="@color/hint_color_dark" />
+
+                    <ImageView
+                        android:id="@+id/img_extra_earning_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        android:background="@drawable/white_ripple"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_info" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/txt_hint_charges"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delivery_further_than_5_miles_only_when_requested_from_borrower"
+                    android:textColor="@color/hint_color_dark" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/primary_ripple"
+        android:elevation="@dimen/_3"
+        android:gravity="center"
+        android:text="@string/done"
+        android:textColor="@color/white_color" />
+
+</LinearLayout>

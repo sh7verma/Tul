@@ -1,0 +1,116 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.app.tul"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 9
+        versionName "1.8"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.view_tul.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        ndk {// 设置支持的SO库架构
+        }
+    }
+    sourceSets.main {
+        jniLibs.srcDir 'src/main/jniLibs'
+        jni.srcDirs = []//不编译jni
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    /// support libs
+    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+    compile "com.android.support:support-v4:$rootProject.supportLibraryVersion"
+    compile "com.android.support:design:$rootProject.supportLibraryVersion"
+    compile "com.android.support:cardview-v7:$rootProject.supportLibraryVersion"
+
+    /// google
+    compile 'com.google.android.gms:play-services-location:11.0.2'
+    compile 'com.google.android.gms:play-services-maps:11.0.2'
+    compile 'com.google.android.gms:play-services-places:11.0.2'
+    compile 'com.google.android.gms:play-services-analytics:11.0.2'
+
+    //Retrofit
+    compile "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    compile "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+
+    /// volley
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+
+    /// picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    /// butter knife
+    compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+
+    /// libs
+    compile files('libs/nineoldandroids.jar')
+
+    /// firebase
+    compile 'com.google.firebase:firebase-database:11.0.2'
+    compile 'com.google.firebase:firebase-messaging:11.0.2'
+
+    /// badge count
+    compile 'me.leolin:ShortcutBadger:1.1.4@aar'
+
+    /// libraries
+    compile project(':facebook')
+    compile project(':cropLib')
+    compile project(':aFileChooser')
+    compile project(':ffmpeg4android_lib')
+    compile project(':library')
+    compile project(':library_claendar')
+    compile project(':stripe')
+    compile project(':appiraterAndroid')
+
+    /// external dependecies
+    compile 'com.cocosw:bottomsheet:1.+@aar'
+    compile 'com.iarcuschin:simpleratingbar:0.1.+'
+    compile 'me.relex:circleindicator:1.2.2@aar'
+    compile 'com.github.jd-alexander:LikeButton:0.2.3'
+    compile 'org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0'
+    compile 'com.intuit.sdp:sdp-android:1.0.5'
+    compile 'com.intuit.ssp:ssp-android:1.0.5'
+    compile 'io.doorbell:android-sdk:0.2.7@aar'
+
+    //joda
+    compile 'net.danlew:android.joda:2.9.9'
+//multidex
+    compile 'com.android.support:multidex:1.0.1'
+    // apache
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
+        transitive = true;
+    }
+
+}
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
+}
+apply plugin: 'com.google.gms.google-services'

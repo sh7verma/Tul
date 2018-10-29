@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <customviews.RegularTextView
+        android:id="@+id/txt_hint_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_basic_details_of_your_tul"
+        android:textColor="@color/white_color" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ll_inner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_color"
+            android:orientation="vertical">
+
+            <customviews.MaterialEditText
+                android:id="@+id/ed_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16"
+                android:gravity="left"
+                android:hint="@string/name_of_the_tul"
+                android:inputType="textCapWords"
+                android:maxLength="@integer/title_max"
+                android:maxLines="1"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabelText="@string/name_of_the_tul"
+                app:met_floatingLabelTextColor="@color/hint_color_dark"
+                app:met_hideUnderline="true"
+                app:met_textColor="@color/black_color"
+                app:met_textColorHint="@color/hint_color_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <customviews.MaterialEditText
+                android:id="@+id/ed_no_tuls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16"
+                android:gravity="left"
+                android:hint="@string/quantity_cap"
+                android:inputType="number"
+                android:maxLength="4"
+                android:maxLines="1"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabelText="@string/quantity_cap"
+                app:met_floatingLabelTextColor="@color/hint_color_dark"
+                app:met_hideUnderline="true"
+                app:met_textColor="@color/black_color"
+                app:met_textColorHint="@color/hint_color_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+
+            <customviews.MaterialEditText
+                android:id="@+id/ed_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16"
+                android:background="@color/white_color"
+                android:gravity="left"
+                android:hint="@string/descrption"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="@integer/desc_max"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabelText="@string/descrption"
+                app:met_floatingLabelTextColor="@color/hint_color_dark"
+                app:met_hideUnderline="true"
+                app:met_textColor="@color/black_color"
+                app:met_textColorHint="@color/hint_color_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <customviews.MaterialEditText
+                android:id="@+id/ed_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16"
+                android:drawableRight="@mipmap/ic_more"
+                android:focusableInTouchMode="false"
+                android:gravity="left"
+                android:hint="@string/condition"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:maxLines="1"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabelText="@string/condition"
+                app:met_floatingLabelTextColor="@color/hint_color_dark"
+                app:met_hideUnderline="true"
+                app:met_textColor="@color/black_color"
+                app:met_textColorHint="@color/hint_color_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <customviews.MaterialEditText
+                android:id="@+id/ed_currency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16"
+                android:drawableRight="@mipmap/ic_more"
+                android:focusableInTouchMode="false"
+                android:gravity="left"
+                android:hint="@string/currency_"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:maxLines="1"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabelText="@string/currency_"
+                app:met_floatingLabelTextColor="@color/hint_color_dark"
+                app:met_hideUnderline="true"
+                app:met_textColor="@color/black_color"
+                app:met_textColorHint="@color/hint_color_dark" />
+
+            <View
+                android:id="@+id/view_currency"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_price"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="@string/price"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/price"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <ImageView
+                    android:id="@+id/img_price_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@mipmap/ic_info" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <customviews.MaterialEditText
+                android:id="@+id/ed_delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16"
+                android:drawableRight="@mipmap/ic_more"
+                android:focusableInTouchMode="false"
+                android:gravity="left"
+                android:hint="@string/DELIVERY_AVAILABLE"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:maxLines="1"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabelText="@string/DELIVERY_AVAILABLE"
+                app:met_floatingLabelTextColor="@color/hint_color_dark"
+                app:met_hideUnderline="true"
+                app:met_textColor="@color/black_color"
+                app:met_textColorHint="@color/hint_color_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hint_color_dark" />
+
+            <LinearLayout
+                android:id="@+id/ll_delivery_charges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_delivery_charges_local"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/delivery_charges_locally"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/delivery_charges_locally"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_delivery_charges_inter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:gravity="left"
+                    android:hint="@string/delivery_charges_inter"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/delivery_charges_inter"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:focusableInTouchMode="false"
+                    android:gravity="left"
+                    android:hint="@string/company_name_"
+                    android:inputType="textCapWords"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/company_name_"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+
+                <customviews.MaterialEditText
+                    android:id="@+id/ed_vat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16"
+                    android:focusableInTouchMode="false"
+                    android:gravity="left"
+                    android:hint="@string/vat_no"
+                    android:maxLines="1"
+                    app:met_floatingLabel="normal"
+                    app:met_floatingLabelAnimating="true"
+                    app:met_floatingLabelText="@string/vat_no"
+                    app:met_floatingLabelTextColor="@color/hint_color_dark"
+                    app:met_hideUnderline="true"
+                    app:met_textColor="@color/black_color"
+                    app:met_textColorHint="@color/hint_color_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/hint_color_dark" />
+            </LinearLayout>
+
+
+            <customviews.SemiboldTextView
+                android:id="@+id/txt_add_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_ripple"
+                android:text="@string/add_images_video"
+                android:textAllCaps="true"
+                android:textColor="@color/hint_color_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_add_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/hint_color_dark"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/hint_color_dark"
+                        android:src="@mipmap/ic_add_photo" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_images"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/primary_ripple"
+        android:gravity="center"
+        android:text="@string/list"
+        android:textAllCaps="true"
+        android:textColor="@color/white_color" />
+
+</LinearLayout>

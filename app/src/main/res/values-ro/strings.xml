@@ -1,0 +1,826 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+
+    <string name="app_name">TUL</string>
+    <string name="login">Login</string>
+    <string name="app_id">1436825226428892</string>
+    <string name="google_maps_key">AIzaSyCh64XZrSCzDDZq0VTzz8ukjoY0sommN8</string>
+
+    //codes
+    <string name="cannot_connect_server">Nu se poate conecta la server</string>
+    <string name="error">Ceva n-a mers bine!</string>
+    <string name="internet">conexiune la Internet nu este disponibil!</string>
+    <string name="copy_">Link Copiat</string>
+    <string name="success">200</string>
+    <string name="invalid_access_token">420</string>
+    <string name="treminate_account">405</string>
+    <string name="pause_error">306</string>
+    <string name="edit_error">302</string>
+    <string name="payment_exceed_code">423</string>
+
+    <string name="enter_email">Vă rugăm să introduceți e-mailul</string>
+    <string name="enter_valid_email">Vă rugăm să introduceți un e-mail valid</string>
+    <string name="enter_password">Vă rugăm să introduceți Parola</string>
+    <string name="error_password">Per favore Inserisci Passwort Valida con un minimo di 8 caratteri</string>
+
+    <string name="start_sharing_your_tuls">Iniziare ein condividere l\'tuls</string>
+    <string name="log_in">AUTENTIFICARE</string>
+    <string name="sign_up">ÎNSCRIETE</string>
+    <string name="login_with_facebook">LOGHEAZA-TE CU FACEBOOK</string>
+    <string name="email">E-mail</string>
+    <string name="passowrd">Parola</string>
+    <string name="forgot_password">Aţi uitat parola?</string>
+    <string name="password">Parola</string>
+    <string name="by_signing_up_i_agree_to_the_terms_amp_conditions"><![CDATA[Prin înscrierea Sunt de acord cu Termenii și condițiile]]></string>
+    <string name="reset_password_hint">Vă rugăm să introduceți ID-ul de e-mail înregistrată în scopul de a obține un link de resetare. Veți fi capabil de a stabili o nouă parolă de acolo.</string>
+    <string name="reset">RESET</string>
+    <string name="full_name">Numele complet</string>
+    <string name="enter_phone_no">Introduc Nr</string>
+    <string name="error_first_name">Introduceți prenumele cu minim 2 caractere.</string>
+    <string name="error_company_name">Vă rugăm să introduceți numele companiei cu minim 2 caractere.</string>
+    <string name="error_last_name">Vă rugăm să introduceți Nume cu minim 2 caractere.</string>
+    <string name="error_code">Vă rugăm să introduceți codul de țară.</string>
+    <string name="error_pic">Vă rugăm să adăugați fotografia de profil.</string>
+    <string name="enter_phone">Vă rugăm să introduceți numărul de telefon</string>
+    <string name="enter_vat">Vă rugăm să introduceți numărul de TVA</string>
+    <string name="enter_loc">Vă rugăm să introduceți locația</string>
+
+    <string name="enter_valid_number">Va rugam sa introduceti un numar de telefon valid</string>
+    <string name="verfication_hint_msg">Introduceti codul de verificare l-am trimis</string>
+    <string name="call">APEL</string>
+    <string name="lender_side">LENDER SIDE</string>ca
+    <string name="seller_side">SELLER SIDE</string>
+    <string name="user_side">SIDE USER</string>
+    <string name="lorem_ipsum_dolor">Lorem Ipsum Dolor</string>
+    <string name="lorem_ipsum_desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="looking_for_a_tul">Căutați un TUL</string>
+    <string name="become_a_tul_lender">Fii un Creditor TUL</string>
+    <string name="listed_tuls">tuls ENUMERATE</string>
+    <string name="my_short_list">FAVORITELE MELE
+</string>
+    <string name="update">ACTUALIZAȚI</string>
+    <string name="edit_profile">Editează profilul</string>
+    <string name="add_your_first_tul">Adăugați Primul tău TUL</string>
+    <string name="enter_title">
+Introdu titlul</string>
+    <string name="title">
+TITLU</string>
+    <string name="select_category">SELECTEAZĂ O CATEGORIE</string>
+    <string name="enter_descrption">Introdu dar descrierea</string>
+    <string name="descrption">
+DESCRIERE</string>
+    <string name="enter_price">Introdu Preț</string>
+    <string name="price">PREȚ</string>
+    <string name="additional_prices">Preturi suplimentare</string>
+    <string name="address">ADRESA</string>
+    <string name="address_caps">ADRESA</string>
+    <string name="select_address">
+Selectați Adresă</string>
+    <string name="rules">REGULI</string>
+    <string name="no_tuls">NU. DE tuls DISPONIBILE</string>
+    <string name="list_tul">Lista TUL dvs.</string>
+    <string name="security_charges">
+SECURITATE DEPOZIT (REFUNDABLE)</string>
+    <string name="convenience_fee">Costuri suplimentare</string>
+    <string name="add_additional_prices">Adăugați Preturi Aditionale</string>
+    <string name="transition">tranziție</string>
+    <string name="add_images_video">Adaugați Poze/Video</string>
+    <string name="enter_rule">Intră Regula.</string>
+    <string name="cancel">ANULAȚI</string>
+    <string name="add">ADĂUGAȚI</string>
+    <string name="add_rules">ADĂUGAȚI REGULI</string>
+    <string name="set_location_on_map">ALEGEȚI LOCAȚIA PE HARTĂ</string>
+    <string name="search">CĂUTARE</string>
+    <string name="no_location_found">Nicio locație găsită.</string>
+    <string name="fetching_current_location">Fetching actual Localizare</string>
+    <string name="capture_video">Adăugați un Video.</string>
+    <string name="add_photo">Adăugați o Poză.</string>
+    <string name="confrim">Confirmați</string>
+    <string name="contact">CONTACTAȚI</string>
+    <string name="delete_message">Sunteți sigur că doriți să ștergeți imaginea sau video?</string>
+    <string name="error_image_video_count">Nu puteți introduce mai mult de 7 imagini/video.</string>
+    <string name="error_image_count">Nu puteți introduce mai mult de 6 imagini.</string>
+    <string name="error_video_count">Nu puteți introduce mai mult de 1 video.</string>
+    <string name="save_amp_next"><![CDATA[SALVAȚI ȘI CONTINUAȚI]]></string>
+    <string name="discard">ANULEAZĂ</string>
+    <string name="discard_message">Sunteți sigur că doriți să renunțați?</string>
+    <string name="all_data_discard">Dacă reveniți-vă toate datele vor fi eliminate. Sunteți sigur că doriți să renunțați?</string>
+    <string name="cancel_message">By cancelling booking you will be charged (£ 5) as per TUL policies. Are you sure you want to cancel?
+    </string>
+    <string name="error_title">Vă rugăm să introduceți un titlu.</string>
+    <string name="error_category">Vă rugăm să selectați categoria</string>
+    <string name="error_descrption">Vă rugăm să introduceți o descriere.</string>
+    <string name="error_no_tuls">Vă rugăm să introduceți nr. de tuls</string>
+    <string name="error_no_valid">Vă rugăm să introduceți o cantitate validă</string>
+    <string name="error_price">Vă rugăm să introduceți un preț valid</string>
+    <string name="error_discount">Vă rugăm să introduceți o reducere validă</string>
+    <string name="error_valid_price">Vă rugăm să introduceți un preț valid</string>
+    <string name="error_addtional_prices">Vă rugăm să introduceți prețuri suplimentare</string>
+    <string name="error_address">Vă rugăm să introduceți o adresă.</string>
+    <string name="error_rules">Vă rugăm să introduceți reguli</string>
+    <string name="error_image_video">Vă rugăm să adăugați cel puțin un videoclip sau o imagine.</string>
+    <string name="security_fee_error">Vă rugăm să adăugați depozit de securitate valabil </string>
+    <string name="extra_fee_error">Vă rugăm să adăugați taxă suplimentară validă </string>
+    <string name="error_valid_fee">Vă rugăm să introduceți o taxă validă</string>
+    <string name="weekdays">Zile lucrătoare </string>
+    <string name="only_weekends">Numai weekend</string>
+    <string name="both">Ambele</string>
+    <string name="available">DISPONIBIL</string>
+    <string name="start_time">TIMPUL DE ÎNCEPERE</string>
+    <string name="end_time">ORA DE TERMINARE</string>
+    <string name="tul_delivery_available">TUL de livrare Disponibil</string>
+    <string name="delivery_charges">TAXE DE TRANSPORT</string>
+    <string name="tul_delivery_pickup_time">TUL DE LIVRARE / TIME PICKUP</string>
+    <string name="start_time_">Timpul de începere -</string>
+    <string name="prefrences">PREFERINȚE</string>
+    <string name="error_start_time">Vă rugăm să introduceți ora de începere</string>
+    <string name="error_end_time">Vă rugăm să introduceți ora de încheiere</string>
+    <string name="error_delivery_charges">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="error_delivery_Option">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="error_condition">Please enter condition of the TUL</string>
+    <string name="error_delivery_Option_inter">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="error_delivery_Option_local">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="error_valid_charges">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="error_delivery_start_time">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="error_delivery_end_time">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="enter_your_bank_detail_to_recieve_your_fund_in_future">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="country_code">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="add_currency">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="account_no">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="sort_code">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="sort_code_routing_number">Vă rugăm să introduceți taxele de livrare</string>
+    <string name="first_name">Nume</string>
+    <string name="first_name_caps">PRENUMELE</string>
+    <string name="last_name">Numele de familie</string>
+    <string name="last_name_caps">NUMELE </string>
+    <string name="city">ORAȘ</string>
+    <string name="state">NUMELE </string>
+    <string name="postal_code">COD POȘTAL</string>
+    <string name="add_id_verification_document">ADĂUGAȚI UN DOCUMENT DE IDENTITATE</string>
+    <string name="add_bank_detail">ADĂUGAȚI DETALII BANCARE</string>
+    <string name="dob">DATA DE NAȘTERE</string>
+    <string name="error_country_code">Vă rugăm să selectați Codul de Țară</string>
+    <string name="error_currency">Please select add_currency</string>
+    <string name="error_account">Vă rugăm să introduceți contul nr.</string>
+    <string name="error_sort_code">Vă rugăm să introduceți codul SWIFT</string>
+    <string name="error_city">Vă rugăm să introduceți Orașul</string>
+    <string name="error_state">Vă rugăm să introduceți Țară</string>
+    <string name="error_postal_code">Vă rugăm să introduceți Codul Poștal</string>
+    <string name="error_dob">Vă rugăm să specificați DOB dvs.</string>
+    <string name="error_document">Vă rugăm să adăugați un document pentru verificare</string>
+    <string name="hint_prefrences">Set preferințe cum ar fi disponibilitatea, ora de începere, și dacă livreze tuls sau nu.</string>
+    <string name="just_click_on_add_button_for_new_rules">Doar faceți clic pe butonul Add pentru noi reguli. \ NVă scrie aici Dacă sunt disponibile pentru a livra TUL și mai mult de 5 mile. Discutați apoi cu debitorul interesat și a stabilit taxa în taxă suplimentară.</string>
+    <string name="reviews_and_ratings">Recenzii și evaluări</string>
+    <string name="cancellation_policies">Politica de anulare</string>
+    <string name="linked_account">cont conectat</string>
+    <string name="title_activity_tul_rules">TulRulesActivity</string>
+    <string name="overall_rating">Rating-ul global</string>
+    <string name="AMENITIES">FACILITĂȚI EDIT</string>
+    <string name="amenities">FACILITĂȚI</string>
+    <string name="delete_tul">Sunteți sigur că doriți să ștergeți acest TUL?</string>
+    <string name="error_max_price">Puteți seta taxe max pana la 999 numai</string>
+    <string name="error_max_Sales_price">Puteți seta taxe max pana la 999999 numai</string>
+    <string name="error_max_discount">You can set max discount upto 99.99 only</string>
+    <string name="error_booking_days">Nr de rezervare zile trebuie să fie mai mare decât 0</string>
+    <string name="error_booking_empty">Vă rugăm să introduceți Nr de rezervare zile</string>
+    <string name="error_max_fee">You can set  extra fee upto 999 only</string>
+    <string name="error_max_security_price">Puteți seta depozit de securitate pana la 900000 numai</string>
+    <string name="near_by_tul">În apropiere de tuls</string>
+    <string name="last_name_profile">Numele de familie</string>
+    <string name="report_msg">Sigur vrei să raportați acest TUL?</string>
+
+    <string name="remove_account">Sunteți sigur că doriți să eliminați acest cont?</string>
+    <string name="primary_account">Doriți să facă acest primar cont</string>
+    <string name="add_new_account">Adăugați un cont nou</string>
+    <string name="payment">PLĂȚI</string>
+    <string name="saved_cards">SALVATE CARDURI</string>
+    <string name="accounts">CONTURI</string>
+    <string name="name_on_card">NUMELE DE PE CARD</string>
+    <string name="card_no">NUMĂR DE CARD</string>
+    <string name="expiry_month">EXPIRĂRII MONTH</string>
+    <string name="expiry_year">EXPIRĂRII YEAR</string>
+    <string name="add_debit_credit_card">ADD DEBIT / CREDIT CARD</string>
+    <string name="error_card_no">Introduceți numărul cardului</string>
+    <string name="error_valid_card_no">Introduceți numărul de card valid</string>
+    <string name="error_month">Introdu o lună de expirare</string>
+    <string name="error_year">Introdu anul expirării</string>
+    <string name="error_valid_account">Introduceți numărul de cont valid</string>
+    <string name="error_name">Vă rugăm să introduceți un nume valid.</string>
+    <string name="select_deleivery_type">Selectați tipul de livrare</string>
+    <string name="pause_message">rezervare Pauză va dezactiva rezervarea în continuare de către utilizatori. Sunteți sigur că doriți să întrerupeți rezervare?</string>
+    <string name="resume_message">CV-ul de rezervare va permite rezervarea în continuare de către utilizatori. Sunteți sigur că doriți să reluați rezervarea?</string>
+    <string name="HELP">AJUTOR</string>
+    <string name="RECEIPT">PRIMIRE</string>
+    <string name="lent_tuls">tuls LENT</string>
+    <string name="rented_tuls">tuls INCHIRIATE</string>
+    <string name="MESSAGES">MESAJE</string>
+    <string name="NOTIFICATIONs">NOTIFICĂRI</string>
+    <string name="share_content">TUL is an App for your smartphone where you can BUY, SELL or HIRE
+any type of machinery and equipment. Check it out www.thetulapp.com</string>
+    <string name="password_mismatch">Trebuie să introduceți aceeași parolă de două ori pentru a confirma.</string>
+
+    <string name="current_date">June, 2016</string>
+    <string name="add_event">ADD CALENDARUL EVENIMENT</string>
+    <string name="sun">SOARE</string>
+    <string name="mon">MON</string>
+    <string name="tue">SUT</string>
+    <string name="wed">WED</string>
+    <string name="thu">JOI</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="last_date">30</string>
+    <string name="dashboard">TABLOUL DE BORD</string>
+    <string name="dashboard_">Tablou de Bord</string>
+    <string name="oderhistory_">Istoric comenzi</string>
+    <string name="booked">Rezervat</string>
+    <string name="pickup_delivery"><![CDATA[Pickup & Livrare]]></string>
+    <string name="returnn">Întoarcere</string>
+    <string name="all">Toate</string>
+    <string name="file_size_exceeds">Dimensiunea fișierului depășește limita de 100MB</string>
+    <string name="error_already_marked">3000</string>
+    <string name="current_password">Parola actuală</string>
+    <string name="new_password">Parolă Nouă</string>
+    <string name="re_enter_password">Reintrodu parola</string>
+    <string name="no_of_bookings">NU. Rezervărilor ZILE</string>
+    <string name="discount">REDUCERE(%)</string>
+    <string name="delivery_msg">Dacă sunt disponibile pentru a livra TUL dvs. mai jos de 5 mile, specificați în normele și se adaugă costul în \ Extra Taxa \“, în prețuri SUPLIMENTARE.</string>
+    <string name="Skip">TRECE PESTE >></string>
+    <string name="Skip_new">TRECE PESTE </string>
+    <string name="Login_First">Only registered users can proceed further. Do you want to Sign up?</string>
+    <string name="contact_admin_tul">Contul dvs. este suspendat de admin. Puteți contacta administratorul la <u>info@thetulapp.com</u>.</string>
+    <string name="contact_admin_user">Contul dvs. este suspendat de admin. Puteți contacta administratorul la <u>info@thetulapp.com</u>.</string>
+    <string name="verify_email_2">ID-ul de e-mail nu este verificată, vă rugăm să asigurați-vă că utilizați ID-ul de e-mail autentificate. Numai ID-ul de e-mail autentificat va primi o confirmare a tranzacției. Doriți să continuați fără verificare?</string>
+    <string name="verify_email">Adresa ta de email nu este încă verificată. Faceți clic pe butonul RESEND pentru a primi e-mail de confirmare.</string>
+    <string name="place_is_blocked">Acest TUL este suspendat de admin.</string>
+    <string name="owner_is_blocked">Proprietarul este suspendat de admin.</string>
+    <string name="Admin_Percentage">Procentul de tranzacție a fost schimbat.</string>
+    <string name="no_tuls_booked_yet">NO tuls REZERVAT ÎNCĂ!</string>
+    <string name="extra_fee_earning">CÂȘTIG EXTRA FEE</string>
+    <string name="delivery_further_than_5_miles_only_when_requested_from_borrower">Livrare mai jos de 5 mile, numai atunci când sunt solicitate de la debitor.</string>
+    <string name="done">TERMINAT</string>
+    <string name="no_blocked_user_yet">Nici un utilizator blocat Cu toate acestea,</string>
+    <string name="category">Categorie</string>
+    <string name="self_pickup">Auto Pickup</string>
+    <string name="address_">(Address)</string>
+    <string name="deliver_to_your_location">Oferiți la locația dvs.</string>
+    <string name="delivery_available_within_100_kms_only">(Livrare disponibilă numai în termen de 100 km)</string>
+    <string name="number_of_tuls">NUMĂRUL DE tuls: -</string>
+    <string name="total">Total</string>
+    <string name="book_now">Rezerva acum</string>
+    <string name="no_message_yet">Nici un mesaj Cu toate acestea,</string>
+    <string name="select_country">Selecteaza tara</string>
+    <string name="create_profile">Creeaza un profil</string>
+    <string name="phone_no">Nr de Telefon</string>
+    <string name="verify">VERIFICAȚI</string>
+    <string name="lent_on">ÎNCHIRIAT PE</string>
+    <string name="returned_on">RESTITUIT PE</string>
+    <string name="you_rated">AȚI EVALUAT</string>
+    <string name="search_dot">Căutare...</string>
+    <string name="looking_seller">CAUTĂ SELLER</string>
+    <string name="add_basic_details_of_your_tul">Adăugați detalii de bază ale TUL dumneavoastră.</string>
+    <string name="your_earning">câștigul salarial</string>
+    <string name="amount_of_days_for_discount_optional">CANTITATEA DE ZILE DE REDUCERE (OPȚIONAL)</string>
+    <string name="list_your_tul">LISTA TUL DVS.</string>
+    <string name="list_your_tul_">Lista TUL dvs.</string>
+    <string name="preferences">Preferinţe</string>
+    <string name="bank_details">Detalii Bancare</string>
+    <string name="primary_account_linked">Cont principal adăugat</string>
+    <string name="check_availability">VERIFICĂ DISPONIBILITATEA</string>
+    <string name="pause_tul_booking">Pauză TUL Rezervare</string>
+    <string name="cancellation_charges">Taxele de anulare</string>
+    <string name="loading_dot">Se incarca...</string>
+    <string name="no_notifications_yet">Nu există notificări Cu toate acestea,</string>
+    <string name="no_tul_listed_yet">Nu TUL încă listat</string>
+    <string name="list_your_tul_become_a_lender_and_start_earning">Lista TUL dvs., să devină un creditor, și începe să câștigați!</string>
+    <string name="list_your_tul_become_a_seller_and_start_earning">Lista TUL dvs., să devină un vânzător, și să vândă TUL dumneavoastră.</string>
+    <string name="rate_this_user">EVALUAȚI ACEST UTILIZATOR</string>
+    <string name="write_a_review">Scrie o recenzie...</string>
+    <string name="addd_rule">ADAUGĂ REGULĂ</string>
+    <string name="looking_for">CAUTAȚI</string>
+    <string name="clear">ȘTERGEȚI</string>
+    <string name="availability_options">Opțiuni de Disponibilitate</string>
+    <string name="pick_up_options">Pick up Opțiuni</string>
+    <string name="location">Locație</string>
+    <string name="best_rated">Cel Mai Bine Evaluate</string>
+    <string name="tul_price">TUL Preț</string>
+    <string name="distance">Distanța</string>
+    <string name="apply">APLICĂ</string>
+    <string name="nno_result_found">\ NNiciun rezultat găsit</string>
+    <string name="choose_the_category_of_your_tul">Alegeți categoria de TUL dvs.</string>
+    <string name="change_password">Schimbare Parolă</string>
+    <string name="notifications">Notificări</string>
+    <string name="blocked_user">Utilizator Blocați</string>
+    <string name="about">Despre</string>
+    <string name="privacy_policy">Politica de Confidențialitate</string>
+    <string name="terms_amp_conditions"><![CDATA[Termeni și condiții]]></string>
+    <string name="faq">Întrebări Frecvente</string>
+    <string name="tell_a_friend">Spunei la un prieten</string>
+    <string name="raise_dispute">Începe un Litigiu</string>
+    <string name="logout">DECONECTARE</string>
+    <string name="i_hereby_declare_that_the_service_has_been_acknowledged">Declar prin prezenta că serviciul a fost recunoscut.</string>
+    <string name="sign_here">Semnați aici</string>
+    <string name="report">Reclamație</string>
+    <string name="share_with_your_friends">Partajați cu prietenii vostri</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="whatsapp">WHATSAPP</string>
+    <string name="message">MESAJ</string>
+    <string name="security_deposit_refundable">Garanția de securitate (Rambursabil)</string>
+    <string name="extra_fee">Costuri suplimentare</string>
+    <string name="add_new_address">ADAUGĂ O NOUĂ ADRESĂ</string>
+    <string name="summary">REZUMAT</string>
+    <string name="delivery_date">DATA LIVRĂRII</string>
+    <string name="return_date">Data întoarcerii</string>
+    <string name="extra_charges">Cheltuieli Suplimentare</string>
+    <string name="delivery_charges_">Taxe de transport</string>
+    <string name="total_amount">TOTAL</string>
+    <string name="checkout">CHECK-OUT</string>
+    <string name="add_new_card">ADD UN NOU CARD</string>
+    <string name="proceed_to_pay">Continuați Cu Plata</string>
+    <string name="pause">PAUZĂ</string>
+    <string name="no_reviews_yet">Încă Nici O Valutare</string>
+    <string name="no_rules_specified">Nu există reguli specificate.</string>
+    <string name="booking_date">Data Rezervării</string>
+    <string name="not_received">NU A FOST PRIMIT</string>
+    <string name="received">PRIMITE</string>
+    <string name="delivery_charges_within_5_miles">Taxele de livrare (de 5 mile)</string>
+    <string name="delivery_charges_earning">Taxele de livrare CÂȘTIG</string>
+    <string name="if_you_want_the_tul_to_be_delivered_further_than_5_miles_please_contact_lender">Dacă doriți ca TUL să fie livrate mai jos de 5 mile, vă rugăm să contactați creditor.</string>
+    <string name="how_it_works">Cum funcționează</string>
+    <string name="next">Următorul</string>
+    <string name="we_have_sent_a_verification_link_to_your_email_please_click_this_to_continue_the_sign_up_process">V-am trimis un email cu un link de verificare, va rugăm să verificati adresa email dvs. pentru a continua inscrieria.</string>
+    <string name="resend">RETRIMITE</string>
+    <string name="verify_your_email">VERIFICAȚI E-MAILUL DVS.</string>
+    <string name="broadcast">BROADCAST</string>
+    <string name="ok">OK</string>
+    <string name="no_bookings_available">Nici o Rezervare Disponibilă</string>
+    <string name="block">BlocațI</string>
+    <string name="clear_conversation">STERGEȚI CONVERSAȚIA</string>
+    <string name="are_you_sure_you_want_to_logout">Sigur vrei să te deconectezi?</string>
+    <string name="confirm">Confirmați</string>
+    <string name="take_a_photo">Faceți o Fotografie</string>
+    <string name="select_from_gallery">Selectați din Galerie</string>
+    <string name="view_photo">Vedeți Fotografia</string>
+    <string name="available_on">DISPONIBIL PE</string>
+    <string name="are_you_sure_you_want_to_discard_all_cards">Sunteți sigur că doriți să renunțați la toate cardurile?</string>
+    <string name="no_tul_history_yet">Nu există niciun istoric TUL Cu toate acestea,</string>
+    <string name="no_account_added_yet">Nu există un cont adăugat încă</string>
+    <string name="no_card_added_yet">Nici un card adaugăt </string>
+    <string name="no_tul_added_to_favourites_yet">Nu TUL adăugat la favorite încă</string>
+    <string name="no_statistics_available">Nu există date statistice disponibile</string>
+    <string name="tul_charges">Onorarile Noastre</string>
+    <string name="discount_">Reducere</string>
+    <string name="security_deposit">Depozit de securitate</string>
+    <string name="less_service_fee">Taxa de serviciu inferioră</string>
+    <string name="gross_total">Totală Brut</string>
+    <string name="security_refunded">Depozit de Securitate restituit</string>
+    <string name="total_price">Preț Total</string>
+    <string name="my_earnings">VENITURILE MELE</string>
+    <string name="lifetime">PENTRU TOTDEAUNA</string>
+    <string name="overall_tul_rating">Evaluarea de ansamblu TUL</string>
+    <string name="my_listed_tuls">Tuls MY ENUMERATE</string>
+    <string name="unblock">DEBLOCAȚI</string>
+    <string name="total_earnings">VENITURI TOTALE</string>
+    <string name="booking_till_date">REZERVARE PÂNĂ LA DATA DE</string>
+    <string name="spanner_set">Set de chei</string>
+    <string name="owner">PROPRIETAR</string>
+    <string name="tul_returned">TUL Returned</string>
+    <string name="delete">ȘTERGE</string>
+    <string name="earning">CÂȘTIG</string>
+    <string name="active_bookings">Rezervari în progres</string>
+    <string name="tul_handed">TUL Handed</string>
+    <string name="tul_received">TUL Primit</string>
+    <string name="quantity">Cantitate</string>
+    <string name="available_today">Disponibil de azi</string>
+    <string name="bookings_today">Rezervări de azi</string>
+    <string name="rented">Închiriate</string>
+    <string name="about_this">DESPRE</string>
+    <string name="start_time__">Timpul de începere</string>
+    <string name="end_time__">Ora de terminare</string>
+    <string name="unblock_warning">Trebuie să deblocați acest utilizator pentru a trimite un mesaj.</string>
+    <string name="UNBLOCK">DEBLOCAȚI</string>
+    <string name="internet_error">conexiune la Internet nu este disponibil!</string>
+    <string name="please_contact_lender">Se pare că Creditorul nu a predat acest TUL încă, vă rugăm să contactați Creditor.</string>
+    <string name="remove_card">Sunteți sigur că doriți să eliminați acest card?</string>
+    <string name="borrower_not_returned">Se pare că debitorul nu și-a revenit TUL ta.</string>
+    <string name="borrower_cancelled_tull">Împrumutat a anulat această rezervare TUL.</string>
+    <string name="rating_reduced">Datorită anularea rezervării, evaluarea dvs. a fost redus.</string>
+    <string name="lender_canceled_tull">Creditor a anulat această rezervare TUL.</string>
+    <string name="Someone_else_login_on_another">Cineva sa autentificat la un alt dispozitiv cu datele dvs.</string>
+    <string name="no_internet_connection">Fără conexiune internet</string>
+    <string name="received_your_tul_back">Sunteți sigur că TUL primit înapoi?</string>
+    <string name="tull_marked_return_warning">Prin marcarea TUL ca \ „Revenit \“, trebuie să vă asigurați că TUL a fost returnat Creditor. Nu într-adevăr doriți să marcați ca \ „Revenit \“?</string>
+    <string name="mark_tul_received">Sunteți sigur că doriți să marcați acest TUL ca a primit?</string>
+    <string name="mark_tull_handled_to_borrower">Tu \'re predarea TUL la debitor. Doriți într-adevăr să marcheze acest lucru ca \ „TUL Handed \“?</string>
+    <string name="overall_rating_reduced">Prin anularea, valutarea globală dvs. va fi redusă, si va afecta rezervările viitoare ale dvs. Doriți să continuați?</string>
+    <string name="cancel_booking_charged_1">Prin anularea rezervării veți fi taxat (</string>
+    <string name="cancel_booking_charged_2">) Conform politicilor TUL. Esti sigur ca vrei sa anulezi?</string>
+    <string name="already_save_card">Ați salvat deja această carte mai devreme.</string>
+    <string name="are_your_sure_want_make_payment">Sunteți sigur că doriți să faceți această plată?</string>
+    <string name="cannot_edit_category">Nu puteți edita categoria de TUL</string>
+    <string name="enter_discount_percentage">Vă rugăm să introduceți procentajul de reducere.</string>
+    <string name="enter_no_booking_days">Vă rugăm să introduceți numărul de zile de rezervari</string>
+    <string name="number_cannot_lessthan_already_booked_tul">Numărul de tuls nu poate fi mai mică de tuls deja rezervate.</string>
+    <string name="something_was_wrong">Ceva n-a mers bine</string>
+    <string name="maxx_limit_2000">Max Caracter Limita este de 2000</string>
+    <string name="clear_conversation_warining">Sunteți sigur că doriți să ștergeți această conversație?</string>
+    <string name="list_your_tull">Vă rugăm Lista TUL ta.</string>
+    <string name="pls_add_prefrences">Vă rugăm să adăugați prefrences pentru TUL ta.</string>
+    <string name="pls_add_bank_detail">Vă rugăm să adăugați Banca Detalii pentru TUL ta.</string>
+    <string name="already_link_with_tull">Cont principal este deja conectat cu Tul. Puteți schimba contul principal din secțiunea Plăți</string>
+    <string name="reselect_your_location">Reselectați Locația dvs.</string>
+    <string name="sorry_unable_to_fetch_location">Ne pare rău în imposibilitatea de a prelua locație</string>
+    <string name="notifications_caps">Notificări</string>
+    <string name="this_tull_canceled">Acest rezervare TUL a fost anulată.</string>
+    <string name="sign_above">Vă rugăm să Conectați-vă de mai sus</string>
+    <string name="report_contact_owner">Vrei să raporteze sau proprietar de contact?</string>
+    <string name="report_contact_borrower">Doriți să reclamați sau contactați utilizatorul?</string>
+    <string name="please_wait_dot">Te rog asteapta ...</string>
+    <string name="bufferinig_video_dot">Tamponare video ...</string>
+    <string name="fetching_your_primary_account">Noi preluam contul dvs. principal ...</string>
+    <string name="lented">LENTED</string>
+    <string name="please_rate">Vă rugăm să furnizați de rating.</string>
+    <string name="deliver_at_your_location">Oferiți la locația dumneavoastră</string>
+    <string name="pickup">Ridica</string>
+    <string name="clear_filter_warining">ASunteți sigur că doriți să ștergeți filtrele?</string>
+    <string name="filter_applied">Filtru Aplicat</string>
+    <string name="filters_applied">Filtre aplicate</string>
+    <string name="logout_warning">Sigur vrei să te deconectezi?</string>
+    <string name="agree_term_conditions">Prin înscrierea sunt de acord cu Termenii și condițiile.</string>
+    <string name="pls_select_address">Vă rugăm să selectați adresa</string>
+    <string name="add_card_detail">Vă rugăm să adăugați detaliile cardului</string>
+    <string name="add_cvv_number">Vă rugăm să introduceți numărul CVV</string>
+    <string name="invalid_cvv_number">Număr CVV nevalid</string>
+    <string name="invalid_card">card de credit nevalid</string>
+    <string name="you_will_be_charged_extra_more_than_5_miles">Veți fi taxat taxă suplimentară, ca locație este mai aleasă decât 5 Miles.</string>
+    <string name="tull_removed_by_owner">Acest TUL a fost eliminat de către proprietar.</string>
+    <string name="pause_tull_booking">Pauză TUL Rezervare</string>
+    <string name="resume_tull_booking">Reluare TUL Rezervare</string>
+    <string name="no_review_yet">ÎNCĂ NICI O VALUTARE</string>
+    <string name="tull_delivery_not_available">TUL LIVRARE NU ESTE DISPONIBIL</string>
+    <string name="search_tull_with_filter">Căutarea unui TUL din categoriile de date și aplica filtre dorite.</string>
+    <string name="search_seller_with_filter">Căutarea unui vânzător din lista dată și aplica filtre dorite.</string>
+
+    <string name="available_tull_displayed">vor fi afișate tuls disponibile. Selectați cel pe care îl găsiți adecvat și să continuați să împrumute.</string>
+    <string name="available_seller_displayed">vor fi afișate Sellers disponibile. Selectați TUL veți găsi potrivite și să continuați să cumpere.</string>
+
+    <string name="check_status_of_tull">Efectuați plata on-line și a verifica starea TUL cu ușurință.</string>
+    <string name="search_for_tull">Caută un TUL</string>
+    <string name="search_for_seller">Caută un vânzător</string>
+    <string name="book_a_tull">Rezervați o TUL</string>
+    <string name="book_a_sell">Cumparati TUL</string>
+    <string name="check_tull_status">Verificați TUL Starea</string>
+    <string name="become_a_lender">Fii un Creditor</string>
+    <string name="become_seller">Deveniți un vânzător</string>
+    <string name="tull_with_all_required_information">Adăugați propriile tuls cu toate informațiile necesare.</string>
+    <string name="track_the_tull_status">Urmăriți starea tuturor tuls listate cu ușurință.</string>
+    <string name="check_your_earning">Examinați cu ușurință toate statisticile și veniturile.</string>
+    <string name="otp_successfully_set">OTP a trimis cu succes</string>
+    <string name="call_initiated_successfully">Apel inițiat cu succes</string>
+    <string name="pls_add_rules">Vă rugăm să adăugați o Regulă</string>
+    <string name="deliver_in_5_miles">Oferiți la locația dumneavoastră (de 5 mile)</string>
+    <string name="contact_delivery_option">Oferiți la locația dumneavoastră (de 5 mile) Vă rugăm să contactați creditor pentru mai multe opțiuni de livrare.</string>
+    <string name="verification_email_sent">Verificarea mail a fost trimis</string>
+    <string name="sending_dot">TRIMITERE ...</string>
+    <string name="sales">VÂNZĂRI</string>
+    <string name="rentals">RENTALS</string>
+    <string name="sell">VINDE</string>
+    <string name="buy">A CUMPARA</string>
+    <string name="company">Companie</string>
+    <string name="individual">Individual</string>
+    <string name="who_are_you">CINE EŞTI TU?</string>
+    <string name="Work_in_progress">Lucrări în curs</string>
+    <string name="become_a_buyer">Fii un cumpărător</string>
+    <string name="rent">Chirie</string>
+    <string name="become_a_seller">DEVENI un vânzător</string>
+    <string name="delivery_address">ADRESĂ DE LIVRARE</string>
+    <string name="tul_address">TUL ADRESA</string>
+    <string name="see_more">...Vezi mai mult</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="end_time_new">Ora de terminare</string>
+    <string name="start_time_new">Timpul de începere</string>
+    <string name="_12_00_am">12:00 AM</string>
+    <string name="no_of_bookings_new">Nr Rezervarile</string>
+    <string name="about_this_new">DESPRE</string>
+    <string name="more_tools_by">Mai multe instrumente BY</string>
+    <string name="old">Vechi</string>
+    <string name="looking_for_a_tul_caps">CAUTĂ TUL</string>
+    <string name="TULs">tuls</string>
+    <string name="SELLERS">VANZATORILOR</string>
+    <string name="sorry_no_tul_found">Ne pare rău! Nu TUL găsit</string>
+    <string name="DELIVERY_AVAILABLE">LIVRARE DISPONIBILE</string>
+    <string name="seller">Vânzător</string>
+    <string name="more_tuls_by">MAI MULTE DE tuls</string>
+    <string name="about_this_">DESPRE ACEASTĂ SCULĂ</string>
+    <string name="linkedin">LINKEDIN</string>
+    <string name="share_tul">SHARE TUL</string>
+    <string name="copy">COPIE</string>
+    <string name="add_account">ADĂUGAȚI UN CONT BANCAR</string>
+    <string name="to_receive_payments_in_future">Pentru a primi plăți în viitor.</string>
+    <string name="account_details">Detalii cont</string>
+    <string name="account_no_iban">CONT NO./IBAN</string>
+    <string name="vat_no">TVA NR.</string>
+    <string name="swift">RAPID</string>
+    <string name="company_name">Numele Companiei</string>
+    <string name="company_name_">NUMELE COMPANIEI</string>
+    <string name="warehouse_location">depozit Locație</string>
+    <string name="w">depozit Locație</string>
+    <string name="name_of_the_tul">NUMELE Tul</string>
+    <string name="quantity_cap">CANTITATE</string>
+    <string name="condition">CONDIȚIE</string>
+
+    <string name="delivery_charges_locally">Taxele de livrare la nivel local (PER KM)</string>
+    <string name="delivery_charges_inter">Taxele de livrare la nivel internațional (PER KM)</string>
+
+    <string name="delivery_charges_locally_miles">Taxele de livrare local (PER MILES)</string>
+    <string name="delivery_charges_inter_miles">Taxele de livrare la nivel internațional (PER MILES)</string>
+
+    <string name="list">LISTĂ</string>
+    <string name="switch_to_rental">SWITCH la închiriere</string>
+    <string name="switch_to_sales">COMUTATOR PENTRU VÂNZĂRI</string>
+    <string name="delivery">LIVRARE</string>
+    <string name="international">Internaţional</string>
+    <string name="national">Naţional</string>
+    <string name="delivery_location">Locul livrării</string>
+    <string name="you_have_to_pay_additional_delivery_charges">Trebuie să plătească taxe suplimentare de livrare</string>
+    <string name="iron_cutter">POLIZOR UNGHIULAR</string>
+    <string name="Delivery_Charges">Taxe de transport</string>
+    <string name="bank_transfer">TRANSFER BANCAR</string>
+    <string name="Used">Folosit</string>
+    <string name="NEW">Nou</string>
+    <string name="YES">Da</string>
+    <string name="NO">Nu</string>
+    <string name="internationa">Internaţional</string>
+    <string name="enter_delivery_address">Introduceți adresa de livrare</string>
+    <string name="sale_trans_info">Noi oferim un serviciu gratuit de 100% la cumpărător. În funcție de valoarea tranzacției, vânzătorii vor percepe următoarele taxe:</string>
+    <string name="in_your_country">În țara dumneavoastră</string>
+    <string name="card_payment">Card de plată</string>
+    <string name="keep_exploring">continuați să explorați</string>
+    <string name="switch_to">SCHIMBA CU</string>
+    <string name="invalid_expiry_date">Data de expirare nevalidă</string>
+    <string name="secured_payments_with_stripe">Plățile garantate cu dunga</string>
+    <string name="pay">A PLATI</string>
+    <string name="pay_by">PLĂTIT DE</string>
+    <string name="qty_">Qty:</string>
+    <string name="owner_">PROPRIETAR</string>
+    <string name="rented_to_">ÎNCHIRIAT LUI</string>
+
+    <string name="active_orders">Comenzile active</string>
+    <string name="past_orders">TRECUTE COMENZI</string>
+    <string name="history_">ISTORIC</string>
+    <string name="in_progress">In progres</string>
+    <string name="buyer_">CUMPĂRĂTOR</string>
+    <string name="seller_">VÂNZĂTOR</string>
+    <string name="delivered_">Livrat</string>
+    <string name="cancelled">ANULAT</string>
+    <string name="order_placed_">COMANDĂ PLASATĂ</string>
+    <string name="delivered_on">LIVRAT LA</string>
+    <string name="delivered_address">ADRESA EMITE</string>
+    <string name="payment_method">MODALITATE DE PLATĂ</string>
+    <string name="linked_account_">CONT ALEGAT</string>
+    <string name="rate_your_experience">VALUTAȚI EXPERIENȚA DVS.</string>
+    <string name="ok_">OK</string>
+    <string name="camcellled_">ANULAT</string>
+    <string name="borrower_">CHIRIAȘ</string>
+    <string name="returned_">RESTITUIT</string>
+    <string name="received_">PRIMITE</string>
+    <string name="not_received_">NU A FOST PRIMIT</string>
+    <string name="handed_over_">PREDAT</string>
+    <string name="condition_">Condiție</string>
+    <string name="delete_account">ȘTERGE CONT</string>
+    <string name="settings_">SETĂRI</string>
+    <string name="rate_now">EVALUEAZA ACUM</string>
+    <string name="edit_basic_detailof_">Editați detaliile de bază ale TUL dumneavoastră.</string>
+    <string name="purchasing_orders_">COMENZI DE ACHIZIȚIE</string>
+    <string name="no_result_fount">Niciun rezultat găsit!</string>
+    <string name="delete_account_">Ștergerea contului se va elimina definitiv tot conținutul. Sunteți sigur că doriți să ștergeți contul?</string>
+    <string name="please_send_the_bank_payment_receipt_at_info_thetulapp_com">Vă rugăm să trimiteți chitanța de plată la banca info@thetulapp.com</string>
+    <string name="resume_Tul_booking">Reluare TUL Rezervare</string>
+    <string name="booking_closed">Booking Closed</string>
+    <string name="resume">RESUME</string>
+    <string name="cancelled_on_">CANCELLED ON</string>
+    <string name="follow_us_on_instagram">Follow us on Instagram</string>
+    <string name="balance">BALANCE</string>
+    <string name="orders_">ORDERS</string>
+    <string name="currency_">VALUATA</string>
+    <string name="unverified_email">Unverified Email</string>
+    <string name="search_">CĂUTARE</string>
+    <string name="account_no_">CONT NR.</string>
+    <string name="sort_code_">IBAN</string>
+    <string name="iban_">IBAN</string>
+    <string name="you_can_skip_this_now">You can skip this for now.</string>
+    <string name="change_language">Change Language</string>
+
+    <style name="place_is_blocked">TUL dvs. este suspendat de admin. Puteți contacta administratorul la
+        info@thetulapp.com.</style>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_my_booking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/black_stroke_default"
+            android:orientation="vertical">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_my_booking_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/black_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_my"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My"
+                android:textColor="@color/black_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bookings"
+                android:textColor="@color/black_color" />
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black_color" />
+
+        <LinearLayout
+            android:id="@+id/ll_tul_lent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/black_color_white_stroke"
+            android:orientation="vertical">
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_my_lent_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/white_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_tul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TUL"
+                android:textColor="@color/white_color" />
+
+            <customviews.SemiboldTextView
+                android:id="@+id/tv_lent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lent"
+                android:textColor="@color/white_color" />
+        </LinearLayout>
+
+    </LinearLayout>

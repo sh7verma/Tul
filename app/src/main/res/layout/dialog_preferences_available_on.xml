@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:id="@+id/ll_preferences_dialog_available_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_dialog_available_cancel_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_dismiss_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/crop__ic_cancel" />
+        </LinearLayout>
+
+        <customviews.SemiboldTextView
+            android:id="@+id/tv_preferences_dialog_available_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/available_on"
+            android:textColor="@color/black_color"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey"
+            android:orientation="horizontal">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_dialog_available_only_weekends_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:orientation="horizontal">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_preferences_dialog_available_only_weekends"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/only_weekends"
+                android:textColor="@color/hint_color_dark"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_preferences_only_weekends_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_tick"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey"
+            android:orientation="horizontal">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_dialog_available_weekdays_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:orientation="horizontal">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_preferences_dialog_available_weekdays"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/weekdays"
+                android:textColor="@color/hint_color_dark"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_preferences_weekdays_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_tick"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey"
+            android:orientation="horizontal"></View>
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_dialog_available_both_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_ripple"
+            android:orientation="horizontal">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_preferences_dialog_available_both"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/both"
+                android:textColor="@color/hint_color_dark"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_preferences_both_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_tick"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey"
+            android:orientation="horizontal">
+
+        </View>
+
+    </LinearLayout>
+
+</LinearLayout>

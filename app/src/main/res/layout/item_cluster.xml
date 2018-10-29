@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_cluster"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black_color"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white_color" />
+
+    <customviews.SemiboldTextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5"
+        android:text="Tile Cutter"
+        android:textColor="@color/black_color" />
+
+</LinearLayout>

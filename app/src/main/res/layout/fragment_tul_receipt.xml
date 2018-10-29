@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_cancellation_charges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_cancel_charges_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:text="@string/cancellation_charges"
+                android:textColor="@color/black_color" />
+
+
+            <customviews.RegularTextView
+                android:id="@+id/tv_tul_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_chat"
+                android:text="20"
+                android:textColor="@color/black_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_other_charges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_tul_charges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_charges_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="@string/tul_charges"
+                    android:textColor="@color/black_color" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_charges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_chat"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tul_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_discount_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="@string/discount_"
+                    android:textColor="@color/black_color" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_chat"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_tul_security_charges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_security_charges_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="@string/security_deposit"
+                    android:textColor="@color/black_color" />
+
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_security_charges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_chat"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_tul_extra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_extra_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="@string/extra_charges"
+                    android:textColor="@color/black_color" />
+
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_extra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_chat"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tul_delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_delivery_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="@string/delivery_charges_"
+                    android:textColor="@color/black_color" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_chat"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_transaction_charges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_transaction_charges_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/less_service_fee"
+                    android:textColor="@color/black_color" />
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_transaction_charges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:id="@+id/ll_tul_gross_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_gross_total_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="@string/gross_total"
+                    android:textColor="@color/black_color" />
+
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_gross_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_chat"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tul_security_refunded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_security_refunded_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="@string/security_refunded"
+                    android:textColor="@color/black_color" />
+
+
+                <customviews.RegularTextView
+                    android:id="@+id/tv_tul_security_refunded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_chat"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:id="@+id/ll_tul_total_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_tul_total_price_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="@string/total_price"
+                    android:textColor="@color/black_color" />
+
+
+                <customviews.SemiboldTextView
+                    android:id="@+id/tv_tul_total_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_chat"
+                    android:text="20"
+                    android:textColor="@color/black_color" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

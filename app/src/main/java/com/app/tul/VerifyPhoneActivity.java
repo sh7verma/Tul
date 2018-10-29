@@ -46,7 +46,6 @@ import utils.CustomLoadingDialog;
 import utils.Utils;
 
 
-
 public class VerifyPhoneActivity extends Activity implements View.OnClickListener {
 
     public CountDownTimer mTimer;
